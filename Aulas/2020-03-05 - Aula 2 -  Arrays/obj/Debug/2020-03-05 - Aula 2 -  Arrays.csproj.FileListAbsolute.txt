@@ -1,0 +1,6 @@
+D:\Temp\Aulas\2020-03-05 - Aula 2 -  Arrays\bin\Debug\2015-11-19 - Arrays.exe.config
+D:\Temp\Aulas\2020-03-05 - Aula 2 -  Arrays\bin\Debug\2015-11-19 - Arrays.exe
+D:\Temp\Aulas\2020-03-05 - Aula 2 -  Arrays\bin\Debug\2015-11-19 - Arrays.pdb
+D:\Temp\Aulas\2020-03-05 - Aula 2 -  Arrays\obj\Debug\2020-03-05 - Aula 2 -  Arrays.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-03-05 - Aula 2 -  Arrays\obj\Debug\2015-11-19 - Arrays.exe
+D:\Temp\Aulas\2020-03-05 - Aula 2 -  Arrays\obj\Debug\2015-11-19 - Arrays.pdb

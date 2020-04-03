@@ -1,0 +1,14 @@
+C:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\bin\Debug\2015-11-19 - Arrays.exe.config
+C:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\bin\Debug\2015-11-19 - Arrays.exe
+C:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\bin\Debug\2015-11-19 - Arrays.pdb
+C:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\obj\Debug\2018-03-12- Aula 2 -  Arrays.csprojResolveAssemblyReference.cache
+C:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\obj\Debug\2018-03-12- Aula 2 -  Arrays.csproj.CoreCompileInputs.cache
+C:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\obj\Debug\2015-11-19 - Arrays.exe
+C:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\obj\Debug\2015-11-19 - Arrays.pdb
+E:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\bin\Debug\2015-11-19 - Arrays.exe.config
+E:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\bin\Debug\2015-11-19 - Arrays.exe
+E:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\bin\Debug\2015-11-19 - Arrays.pdb
+E:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\obj\Debug\2018-03-12- Aula 2 -  Arrays.csprojResolveAssemblyReference.cache
+E:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\obj\Debug\2018-03-12- Aula 2 -  Arrays.csproj.CoreCompileInputs.cache
+E:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\obj\Debug\2015-11-19 - Arrays.exe
+E:\Temp\LP2\2018-03-12- Aula 2 -  Arrays\obj\Debug\2015-11-19 - Arrays.pdb

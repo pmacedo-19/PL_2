@@ -1,0 +1,11 @@
+E:\Code\PL_2\Aula2\Aula2\obj\Debug\netcoreapp3.1\Aula2.csprojAssemblyReference.cache
+E:\Code\PL_2\Aula2\Aula2\obj\Debug\netcoreapp3.1\Aula2.AssemblyInfoInputs.cache
+E:\Code\PL_2\Aula2\Aula2\obj\Debug\netcoreapp3.1\Aula2.AssemblyInfo.cs
+E:\Code\PL_2\Aula2\Aula2\bin\Debug\netcoreapp3.1\Aula2.exe
+E:\Code\PL_2\Aula2\Aula2\bin\Debug\netcoreapp3.1\Aula2.deps.json
+E:\Code\PL_2\Aula2\Aula2\bin\Debug\netcoreapp3.1\Aula2.runtimeconfig.json
+E:\Code\PL_2\Aula2\Aula2\bin\Debug\netcoreapp3.1\Aula2.runtimeconfig.dev.json
+E:\Code\PL_2\Aula2\Aula2\bin\Debug\netcoreapp3.1\Aula2.dll
+E:\Code\PL_2\Aula2\Aula2\bin\Debug\netcoreapp3.1\Aula2.pdb
+E:\Code\PL_2\Aula2\Aula2\obj\Debug\netcoreapp3.1\Aula2.dll
+E:\Code\PL_2\Aula2\Aula2\obj\Debug\netcoreapp3.1\Aula2.pdb

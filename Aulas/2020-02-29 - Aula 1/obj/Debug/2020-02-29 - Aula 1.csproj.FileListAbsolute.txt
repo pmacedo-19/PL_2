@@ -1,0 +1,12 @@
+D:\Temp\Aulas\2020-02-29 - Aula 1\bin\Debug\2020-02-29 - Aula 1.exe.config
+D:\Temp\Aulas\2020-02-29 - Aula 1\bin\Debug\2020-02-29 - Aula 1.exe
+D:\Temp\Aulas\2020-02-29 - Aula 1\bin\Debug\2020-02-29 - Aula 1.pdb
+D:\Temp\Aulas\2020-02-29 - Aula 1\obj\Debug\2020-02-29 - Aula 1.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-02-29 - Aula 1\obj\Debug\2020-02-29 - Aula 1.exe
+D:\Temp\Aulas\2020-02-29 - Aula 1\obj\Debug\2020-02-29 - Aula 1.pdb
+E:\Code\PL_2\Aulas\2020-02-29 - Aula 1\bin\Debug\2020-02-29 - Aula 1.exe.config
+E:\Code\PL_2\Aulas\2020-02-29 - Aula 1\bin\Debug\2020-02-29 - Aula 1.exe
+E:\Code\PL_2\Aulas\2020-02-29 - Aula 1\bin\Debug\2020-02-29 - Aula 1.pdb
+E:\Code\PL_2\Aulas\2020-02-29 - Aula 1\obj\Debug\2020-02-29 - Aula 1.csprojAssemblyReference.cache
+E:\Code\PL_2\Aulas\2020-02-29 - Aula 1\obj\Debug\2020-02-29 - Aula 1.exe
+E:\Code\PL_2\Aulas\2020-02-29 - Aula 1\obj\Debug\2020-02-29 - Aula 1.pdb

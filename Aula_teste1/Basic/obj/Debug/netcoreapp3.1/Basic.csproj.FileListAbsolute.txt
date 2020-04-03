@@ -1,0 +1,11 @@
+E:\Code\PL_2\Aula1\Basic\bin\Debug\netcoreapp3.1\Basic.exe
+E:\Code\PL_2\Aula1\Basic\bin\Debug\netcoreapp3.1\Basic.deps.json
+E:\Code\PL_2\Aula1\Basic\bin\Debug\netcoreapp3.1\Basic.runtimeconfig.json
+E:\Code\PL_2\Aula1\Basic\bin\Debug\netcoreapp3.1\Basic.runtimeconfig.dev.json
+E:\Code\PL_2\Aula1\Basic\bin\Debug\netcoreapp3.1\Basic.dll
+E:\Code\PL_2\Aula1\Basic\bin\Debug\netcoreapp3.1\Basic.pdb
+E:\Code\PL_2\Aula1\Basic\obj\Debug\netcoreapp3.1\Basic.csprojAssemblyReference.cache
+E:\Code\PL_2\Aula1\Basic\obj\Debug\netcoreapp3.1\Basic.AssemblyInfoInputs.cache
+E:\Code\PL_2\Aula1\Basic\obj\Debug\netcoreapp3.1\Basic.AssemblyInfo.cs
+E:\Code\PL_2\Aula1\Basic\obj\Debug\netcoreapp3.1\Basic.dll
+E:\Code\PL_2\Aula1\Basic\obj\Debug\netcoreapp3.1\Basic.pdb

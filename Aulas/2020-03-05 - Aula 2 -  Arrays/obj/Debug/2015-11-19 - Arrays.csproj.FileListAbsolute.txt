@@ -1,0 +1,6 @@
+H:\Temp\LP1\CodigoAulas\2015-11-19 - Arrays\bin\Debug\2015-11-19 - Arrays.exe.config
+H:\Temp\LP1\CodigoAulas\2015-11-19 - Arrays\bin\Debug\2015-11-19 - Arrays.exe
+H:\Temp\LP1\CodigoAulas\2015-11-19 - Arrays\bin\Debug\2015-11-19 - Arrays.pdb
+H:\Temp\LP1\CodigoAulas\2015-11-19 - Arrays\obj\Debug\2015-11-19 - Arrays.csprojResolveAssemblyReference.cache
+H:\Temp\LP1\CodigoAulas\2015-11-19 - Arrays\obj\Debug\2015-11-19 - Arrays.exe
+H:\Temp\LP1\CodigoAulas\2015-11-19 - Arrays\obj\Debug\2015-11-19 - Arrays.pdb
