@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
+      "projectUniqueName": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
       "projectName": "TrabalhoLPII",
-      "projectPath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
+      "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\TrabalhoLP\\TrabalhoLPII.csproj",
       "packagesPath": "C:\\Users\\Pedro Macedo\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\TrabalhoLP\\obj\\",
+      "outputPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\TrabalhoLP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pedro Macedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj": {
-              "projectPath": "E:\\Code\\15255_18832_LP2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj"
+            "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj": {
+              "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj"
             }
           }
         }
@@ -76,12 +76,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
