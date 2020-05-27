@@ -1,0 +1,6 @@
+C:\Temp\LP2\Aulas\CalcLib\bin\Debug\CalcLib.dll
+C:\Temp\LP2\Aulas\CalcLib\bin\Debug\CalcLib.pdb
+C:\Temp\LP2\Aulas\CalcLib\obj\Debug\CalcLib.csprojAssemblyReference.cache
+C:\Temp\LP2\Aulas\CalcLib\obj\Debug\CalcLib.csproj.CoreCompileInputs.cache
+C:\Temp\LP2\Aulas\CalcLib\obj\Debug\CalcLib.dll
+C:\Temp\LP2\Aulas\CalcLib\obj\Debug\CalcLib.pdb

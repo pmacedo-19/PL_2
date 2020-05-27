@@ -1,0 +1,5 @@
+C:\Temp\LP2\HojeLib\bin\Debug\HojeLib.dll
+C:\Temp\LP2\HojeLib\bin\Debug\HojeLib.pdb
+C:\Temp\LP2\HojeLib\obj\Debug\HojeLib.csprojResolveAssemblyReference.cache
+C:\Temp\LP2\HojeLib\obj\Debug\HojeLib.dll
+C:\Temp\LP2\HojeLib\obj\Debug\HojeLib.pdb

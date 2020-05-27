@@ -1,0 +1,6 @@
+C:\Temp\LP2\Aulas\Aula 5 - Static\bin\Debug\Aula 5 - Static.exe.config
+C:\Temp\LP2\Aulas\Aula 5 - Static\bin\Debug\Aula 5 - Static.exe
+C:\Temp\LP2\Aulas\Aula 5 - Static\bin\Debug\Aula 5 - Static.pdb
+C:\Temp\LP2\Aulas\Aula 5 - Static\obj\Debug\Aula 5 - Static.csproj.CoreCompileInputs.cache
+C:\Temp\LP2\Aulas\Aula 5 - Static\obj\Debug\Aula 5 - Static.exe
+C:\Temp\LP2\Aulas\Aula 5 - Static\obj\Debug\Aula 5 - Static.pdb

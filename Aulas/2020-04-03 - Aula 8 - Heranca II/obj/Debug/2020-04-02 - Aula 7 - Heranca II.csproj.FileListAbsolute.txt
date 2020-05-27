@@ -1,0 +1,6 @@
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Heranca II\bin\Debug\HerancaLib.dll
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Heranca II\bin\Debug\HerancaLib.pdb
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Heranca II\obj\Debug\2020-04-02 - Aula 7 - Heranca II.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Heranca II\obj\Debug\2020-04-02 - Aula 7 - Heranca II.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Heranca II\obj\Debug\HerancaLib.dll
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Heranca II\obj\Debug\HerancaLib.pdb

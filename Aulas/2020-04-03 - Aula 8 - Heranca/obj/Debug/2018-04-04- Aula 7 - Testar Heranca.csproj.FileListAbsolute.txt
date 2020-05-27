@@ -1,0 +1,8 @@
+E:\Temp\LP2\2018-04-04- Aula 7 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.exe.config
+E:\Temp\LP2\2018-04-04- Aula 7 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.exe
+E:\Temp\LP2\2018-04-04- Aula 7 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.pdb
+E:\Temp\LP2\2018-04-04- Aula 7 - Heranca\bin\Debug\HerancaLib.pdb
+E:\Temp\LP2\2018-04-04- Aula 7 - Heranca\obj\Debug\2018-04-04- Aula 7 - Testar Heranca.csprojResolveAssemblyReference.cache
+E:\Temp\LP2\2018-04-04- Aula 7 - Heranca\obj\Debug\2018-04-04- Aula 7 - Testar Heranca.csproj.CoreCompileInputs.cache
+E:\Temp\LP2\2018-04-04- Aula 7 - Heranca\obj\Debug\2016-03-08 - Aula 3 - Herança.exe
+E:\Temp\LP2\2018-04-04- Aula 7 - Heranca\obj\Debug\2016-03-08 - Aula 3 - Herança.pdb

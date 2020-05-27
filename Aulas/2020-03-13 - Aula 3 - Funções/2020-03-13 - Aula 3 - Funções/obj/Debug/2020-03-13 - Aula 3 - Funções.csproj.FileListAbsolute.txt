@@ -1,0 +1,6 @@
+D:\Temp\Aulas\2020-03-13 - Aula 3 - Funções\bin\Debug\2020-03-13 - Aula 3 - Funções.exe.config
+D:\Temp\Aulas\2020-03-13 - Aula 3 - Funções\bin\Debug\2020-03-13 - Aula 3 - Funções.exe
+D:\Temp\Aulas\2020-03-13 - Aula 3 - Funções\bin\Debug\2020-03-13 - Aula 3 - Funções.pdb
+D:\Temp\Aulas\2020-03-13 - Aula 3 - Funções\obj\Debug\2020-03-13 - Aula 3 - Funções.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-03-13 - Aula 3 - Funções\obj\Debug\2020-03-13 - Aula 3 - Funções.exe
+D:\Temp\Aulas\2020-03-13 - Aula 3 - Funções\obj\Debug\2020-03-13 - Aula 3 - Funções.pdb

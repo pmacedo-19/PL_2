@@ -1,0 +1,6 @@
+D:\Temp\Aulas\2020-04-23 - Aula 10 - InterfacesLib\bin\Debug\CalcLib.dll
+D:\Temp\Aulas\2020-04-23 - Aula 10 - InterfacesLib\bin\Debug\CalcLib.pdb
+D:\Temp\Aulas\2020-04-23 - Aula 10 - InterfacesLib\obj\Debug\2020-04-23 - Aula 10 - InterfacesLib.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-04-23 - Aula 10 - InterfacesLib\obj\Debug\2020-04-23 - Aula 10 - InterfacesLib.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\2020-04-23 - Aula 10 - InterfacesLib\obj\Debug\CalcLib.dll
+D:\Temp\Aulas\2020-04-23 - Aula 10 - InterfacesLib\obj\Debug\CalcLib.pdb

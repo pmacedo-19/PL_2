@@ -1,0 +1,7 @@
+D:\Temp\Aulas\2020-03-26 - Aula 5 - Static\bin\Debug\Aula 5 - Static.exe.config
+D:\Temp\Aulas\2020-03-26 - Aula 5 - Static\bin\Debug\Aula 5 - Static.exe
+D:\Temp\Aulas\2020-03-26 - Aula 5 - Static\bin\Debug\Aula 5 - Static.pdb
+D:\Temp\Aulas\2020-03-26 - Aula 5 - Static\obj\Debug\2020-03-26 - Aula 5 - Static.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-03-26 - Aula 5 - Static\obj\Debug\2020-03-26 - Aula 5 - Static.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\2020-03-26 - Aula 5 - Static\obj\Debug\Aula 5 - Static.exe
+D:\Temp\Aulas\2020-03-26 - Aula 5 - Static\obj\Debug\Aula 5 - Static.pdb

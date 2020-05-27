@@ -1,0 +1,14 @@
+D:\Temp\Aulas\2020-04-23 - Aula 10 - Interfaces\obj\Debug\2020-04-23 - Aula 10 - Interfaces.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-04-23 - Aula 10 - Interfaces\obj\Debug\2020-04-23 - Aula 10 - Interfaces.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\2020-04-23 - Aula 10 - Interfaces\obj\Debug\Hoje.exe
+D:\Temp\Aulas\2020-04-23 - Aula 10 - Interfaces\obj\Debug\Hoje.pdb
+D:\Temp\Aulas\2020-04-23 - Aula 10 - Interfaces\bin\Debug\Hoje.exe.config
+D:\Temp\Aulas\2020-04-23 - Aula 10 - Interfaces\bin\Debug\Hoje.exe
+D:\Temp\Aulas\2020-04-23 - Aula 10 - Interfaces\bin\Debug\Hoje.pdb
+E:\Code\PL_2\Aulas\2020-04-23 - Aula 10 - Interfaces\bin\Debug\Hoje.exe.config
+E:\Code\PL_2\Aulas\2020-04-23 - Aula 10 - Interfaces\bin\Debug\Hoje.exe
+E:\Code\PL_2\Aulas\2020-04-23 - Aula 10 - Interfaces\bin\Debug\Hoje.pdb
+E:\Code\PL_2\Aulas\2020-04-23 - Aula 10 - Interfaces\obj\Debug\2020-04-23 - Aula 10 - Interfaces.csprojAssemblyReference.cache
+E:\Code\PL_2\Aulas\2020-04-23 - Aula 10 - Interfaces\obj\Debug\2020-04-23 - Aula 10 - Interfaces.csproj.CoreCompileInputs.cache
+E:\Code\PL_2\Aulas\2020-04-23 - Aula 10 - Interfaces\obj\Debug\Hoje.exe
+E:\Code\PL_2\Aulas\2020-04-23 - Aula 10 - Interfaces\obj\Debug\Hoje.pdb

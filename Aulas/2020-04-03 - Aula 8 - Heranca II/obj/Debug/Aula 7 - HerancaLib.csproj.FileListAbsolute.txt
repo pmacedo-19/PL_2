@@ -1,0 +1,6 @@
+C:\Temp\LP2\Aulas\Aula 7 - HerancaLib\bin\Debug\HerancaLib.dll
+C:\Temp\LP2\Aulas\Aula 7 - HerancaLib\bin\Debug\HerancaLib.pdb
+C:\Temp\LP2\Aulas\Aula 7 - HerancaLib\obj\Debug\Aula 7 - HerancaLib.csproj.CoreCompileInputs.cache
+C:\Temp\LP2\Aulas\Aula 7 - HerancaLib\obj\Debug\HerancaLib.dll
+C:\Temp\LP2\Aulas\Aula 7 - HerancaLib\obj\Debug\HerancaLib.pdb
+C:\Temp\LP2\Aulas\Aula 7 - HerancaLib\obj\Debug\Aula 7 - HerancaLib.csprojAssemblyReference.cache

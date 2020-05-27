@@ -1,0 +1,12 @@
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\bin\Debug\Calculadora.exe.config
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\bin\Debug\Calculadora.exe
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\bin\Debug\Calculadora.pdb
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\bin\Debug\CalcLib.dll
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\bin\Debug\HerancaLib.dll
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\bin\Debug\HerancaLib.pdb
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\bin\Debug\CalcLib.pdb
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\obj\Debug\Aula 8 - UsaLibs.csprojAssemblyReference.cache
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\obj\Debug\Aula 8 - UsaLibs.csproj.CoreCompileInputs.cache
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\obj\Debug\Aula 8 - UsaLibs.csproj.CopyComplete
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\obj\Debug\Calculadora.exe
+C:\Temp\LP2\Aulas\Aula 8 - UsaLibs\obj\Debug\Calculadora.pdb

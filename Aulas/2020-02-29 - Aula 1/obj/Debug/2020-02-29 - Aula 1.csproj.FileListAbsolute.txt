@@ -10,3 +10,4 @@ E:\Code\PL_2\Aulas\2020-02-29 - Aula 1\bin\Debug\2020-02-29 - Aula 1.pdb
 E:\Code\PL_2\Aulas\2020-02-29 - Aula 1\obj\Debug\2020-02-29 - Aula 1.csprojAssemblyReference.cache
 E:\Code\PL_2\Aulas\2020-02-29 - Aula 1\obj\Debug\2020-02-29 - Aula 1.exe
 E:\Code\PL_2\Aulas\2020-02-29 - Aula 1\obj\Debug\2020-02-29 - Aula 1.pdb
+E:\Code\PL_2\Aulas\2020-02-29 - Aula 1\obj\Debug\2020-02-29 - Aula 1.csproj.CoreCompileInputs.cache

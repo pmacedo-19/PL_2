@@ -1,0 +1,7 @@
+D:\Temp\Aulas\2020-03-19 - Aula 4 - OOP\obj\Debug\2020-03-19 - Aula 4 - OOP.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-03-19 - Aula 4 - OOP\obj\Debug\2020-03-19 - Aula 4 - OOP.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\2020-03-19 - Aula 4 - OOP\bin\Debug\2020-03-19 - Aula 4 - OOP.exe.config
+D:\Temp\Aulas\2020-03-19 - Aula 4 - OOP\bin\Debug\2020-03-19 - Aula 4 - OOP.exe
+D:\Temp\Aulas\2020-03-19 - Aula 4 - OOP\bin\Debug\2020-03-19 - Aula 4 - OOP.pdb
+D:\Temp\Aulas\2020-03-19 - Aula 4 - OOP\obj\Debug\2020-03-19 - Aula 4 - OOP.exe
+D:\Temp\Aulas\2020-03-19 - Aula 4 - OOP\obj\Debug\2020-03-19 - Aula 4 - OOP.pdb

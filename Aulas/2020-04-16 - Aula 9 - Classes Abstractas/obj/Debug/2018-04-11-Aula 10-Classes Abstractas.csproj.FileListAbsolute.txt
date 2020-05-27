@@ -1,0 +1,6 @@
+E:\Temp\LP2\2018-04-11-Aula 10-Classes Abstractas\obj\Debug\2018-04-11-Aula 10-Classes Abstractas.csproj.CoreCompileInputs.cache
+E:\Temp\LP2\2018-04-11-Aula 10-Classes Abstractas\bin\Debug\2018-04-11-Aula 10-Classes Abstractas.exe.config
+E:\Temp\LP2\2018-04-11-Aula 10-Classes Abstractas\bin\Debug\2018-04-11-Aula 10-Classes Abstractas.exe
+E:\Temp\LP2\2018-04-11-Aula 10-Classes Abstractas\bin\Debug\2018-04-11-Aula 10-Classes Abstractas.pdb
+E:\Temp\LP2\2018-04-11-Aula 10-Classes Abstractas\obj\Debug\2018-04-11-Aula 10-Classes Abstractas.exe
+E:\Temp\LP2\2018-04-11-Aula 10-Classes Abstractas\obj\Debug\2018-04-11-Aula 10-Classes Abstractas.pdb

@@ -1,0 +1,8 @@
+C:\Temp\LP2\2017-03-08 - Aula 5 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.exe.config
+C:\Temp\LP2\2017-03-08 - Aula 5 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.exe
+C:\Temp\LP2\2017-03-08 - Aula 5 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.pdb
+C:\Temp\LP2\2017-03-08 - Aula 5 - Heranca\bin\Debug\HerancaLib.dll
+C:\Temp\LP2\2017-03-08 - Aula 5 - Heranca\bin\Debug\HerancaLib.pdb
+C:\Temp\LP2\2017-03-08 - Aula 5 - Heranca\obj\Debug\2017-03-08 - Aula 5 - Heranca.csprojResolveAssemblyReference.cache
+C:\Temp\LP2\2017-03-08 - Aula 5 - Heranca\obj\Debug\2016-03-08 - Aula 3 - Herança.exe
+C:\Temp\LP2\2017-03-08 - Aula 5 - Heranca\obj\Debug\2016-03-08 - Aula 3 - Herança.pdb

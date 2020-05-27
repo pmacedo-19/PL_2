@@ -1,0 +1,20 @@
+D:\Temp\Aulas\SolucoesFolhasExercicios\SolucoesFolhasExercicios\Folha 7\bin\Debug\Folha 7.exe.config
+D:\Temp\Aulas\SolucoesFolhasExercicios\SolucoesFolhasExercicios\Folha 7\bin\Debug\Folha 7.exe
+D:\Temp\Aulas\SolucoesFolhasExercicios\SolucoesFolhasExercicios\Folha 7\bin\Debug\Folha 7.pdb
+D:\Temp\Aulas\SolucoesFolhasExercicios\SolucoesFolhasExercicios\Folha 7\bin\Debug\Barcos.dll
+D:\Temp\Aulas\SolucoesFolhasExercicios\SolucoesFolhasExercicios\Folha 7\bin\Debug\Barcos.pdb
+D:\Temp\Aulas\SolucoesFolhasExercicios\SolucoesFolhasExercicios\Folha 7\obj\Debug\Folha 7.csprojAssemblyReference.cache
+D:\Temp\Aulas\SolucoesFolhasExercicios\SolucoesFolhasExercicios\Folha 7\obj\Debug\Folha 7.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\SolucoesFolhasExercicios\SolucoesFolhasExercicios\Folha 7\obj\Debug\Folha 7.csproj.CopyComplete
+D:\Temp\Aulas\SolucoesFolhasExercicios\SolucoesFolhasExercicios\Folha 7\obj\Debug\Folha 7.exe
+D:\Temp\Aulas\SolucoesFolhasExercicios\SolucoesFolhasExercicios\Folha 7\obj\Debug\Folha 7.pdb
+D:\Temp\Aulas\SolucoesFolhasExercicios\Folha 7\bin\Debug\Folha 7.exe.config
+D:\Temp\Aulas\SolucoesFolhasExercicios\Folha 7\bin\Debug\Folha 7.exe
+D:\Temp\Aulas\SolucoesFolhasExercicios\Folha 7\bin\Debug\Folha 7.pdb
+D:\Temp\Aulas\SolucoesFolhasExercicios\Folha 7\bin\Debug\Barcos.dll
+D:\Temp\Aulas\SolucoesFolhasExercicios\Folha 7\bin\Debug\Barcos.pdb
+D:\Temp\Aulas\SolucoesFolhasExercicios\Folha 7\obj\Debug\Folha 7.csprojAssemblyReference.cache
+D:\Temp\Aulas\SolucoesFolhasExercicios\Folha 7\obj\Debug\Folha 7.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\SolucoesFolhasExercicios\Folha 7\obj\Debug\Folha 7.csproj.CopyComplete
+D:\Temp\Aulas\SolucoesFolhasExercicios\Folha 7\obj\Debug\Folha 7.exe
+D:\Temp\Aulas\SolucoesFolhasExercicios\Folha 7\obj\Debug\Folha 7.pdb

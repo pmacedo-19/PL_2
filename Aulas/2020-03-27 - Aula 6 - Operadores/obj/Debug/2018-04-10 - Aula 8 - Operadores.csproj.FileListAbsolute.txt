@@ -1,0 +1,6 @@
+E:\Temp\LP2\2018-04-10 - Aula 8 - Operadores\bin\Debug\LibExterna.dll
+E:\Temp\LP2\2018-04-10 - Aula 8 - Operadores\bin\Debug\LibExterna.pdb
+E:\Temp\LP2\2018-04-10 - Aula 8 - Operadores\obj\Debug\2018-04-10 - Aula 8 - Operadores.csprojResolveAssemblyReference.cache
+E:\Temp\LP2\2018-04-10 - Aula 8 - Operadores\obj\Debug\2018-04-10 - Aula 8 - Operadores.csproj.CoreCompileInputs.cache
+E:\Temp\LP2\2018-04-10 - Aula 8 - Operadores\obj\Debug\LibExterna.dll
+E:\Temp\LP2\2018-04-10 - Aula 8 - Operadores\obj\Debug\LibExterna.pdb

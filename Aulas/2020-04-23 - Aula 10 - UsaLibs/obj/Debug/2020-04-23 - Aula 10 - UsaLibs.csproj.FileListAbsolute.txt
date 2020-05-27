@@ -1,0 +1,12 @@
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\bin\Debug\Calculadora.exe.config
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\bin\Debug\Calculadora.exe
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\bin\Debug\Calculadora.pdb
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\bin\Debug\CalcLib.dll
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\bin\Debug\HerancaLib.dll
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\bin\Debug\HerancaLib.pdb
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\bin\Debug\CalcLib.pdb
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\obj\Debug\2020-04-23 - Aula 10 - UsaLibs.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\obj\Debug\2020-04-23 - Aula 10 - UsaLibs.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\obj\Debug\2020-04-23 - Aula 10 - UsaLibs.csproj.CopyComplete
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\obj\Debug\Calculadora.exe
+D:\Temp\Aulas\2020-04-23 - Aula 10 - UsaLibs\obj\Debug\Calculadora.pdb

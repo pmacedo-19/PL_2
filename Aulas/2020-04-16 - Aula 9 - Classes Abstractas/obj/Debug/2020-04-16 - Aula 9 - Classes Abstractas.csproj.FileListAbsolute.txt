@@ -1,0 +1,7 @@
+D:\Temp\Aulas\2020-04-16 - Aula 9 - Classes Abstractas\obj\Debug\2020-04-16 - Aula 9 - Classes Abstractas.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-04-16 - Aula 9 - Classes Abstractas\obj\Debug\2020-04-16 - Aula 9 - Classes Abstractas.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\2020-04-16 - Aula 9 - Classes Abstractas\obj\Debug\2018-04-11-Aula 10-Classes Abstractas.exe
+D:\Temp\Aulas\2020-04-16 - Aula 9 - Classes Abstractas\obj\Debug\2018-04-11-Aula 10-Classes Abstractas.pdb
+D:\Temp\Aulas\2020-04-16 - Aula 9 - Classes Abstractas\bin\Debug\2018-04-11-Aula 10-Classes Abstractas.exe.config
+D:\Temp\Aulas\2020-04-16 - Aula 9 - Classes Abstractas\bin\Debug\2018-04-11-Aula 10-Classes Abstractas.exe
+D:\Temp\Aulas\2020-04-16 - Aula 9 - Classes Abstractas\bin\Debug\2018-04-11-Aula 10-Classes Abstractas.pdb

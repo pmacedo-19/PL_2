@@ -1,0 +1,9 @@
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Revisões\bin\Debug\AulaHoje.exe.config
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Revisões\bin\Debug\AulaHoje.exe
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Revisões\bin\Debug\AulaHoje.pdb
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Revisões\bin\Debug\Barcos.pdb
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Revisões\obj\Debug\2020-04-02 - Aula 7 - Revisões.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Revisões\obj\Debug\2020-04-02 - Aula 7 - Revisões.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Revisões\obj\Debug\2020-04-02 - Aula 7 - Revisões.csproj.CopyComplete
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Revisões\obj\Debug\AulaHoje.exe
+D:\Temp\Aulas\2020-04-02 - Aula 7 - Revisões\obj\Debug\AulaHoje.pdb

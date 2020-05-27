@@ -1,0 +1,22 @@
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\obj\Debug\2020-04-03 - Aula 8 - Heranca III.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\obj\Debug\2020-04-03 - Aula 8 - Heranca III.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\obj\Debug\Folha 7.exe
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\obj\Debug\Folha 7.pdb
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Folha 7.exe.config
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Folha 7.exe
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Folha 7.pdb
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Atletas.dll
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Barcos.dll
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Atletas.pdb
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Barcos.pdb
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca III\obj\Debug\2020-04-03 - Aula 8 - Heranca III.csproj.CopyComplete
+E:\Code\PL_2\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Folha 7.exe.config
+E:\Code\PL_2\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Folha 7.exe
+E:\Code\PL_2\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Folha 7.pdb
+E:\Code\PL_2\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Atletas.pdb
+E:\Code\PL_2\Aulas\2020-04-03 - Aula 8 - Heranca III\bin\Debug\Barcos.pdb
+E:\Code\PL_2\Aulas\2020-04-03 - Aula 8 - Heranca III\obj\Debug\2020-04-03 - Aula 8 - Heranca III.csprojAssemblyReference.cache
+E:\Code\PL_2\Aulas\2020-04-03 - Aula 8 - Heranca III\obj\Debug\2020-04-03 - Aula 8 - Heranca III.csproj.CoreCompileInputs.cache
+E:\Code\PL_2\Aulas\2020-04-03 - Aula 8 - Heranca III\obj\Debug\2020-04-03 - Aula 8 - Heranca III.csproj.CopyComplete
+E:\Code\PL_2\Aulas\2020-04-03 - Aula 8 - Heranca III\obj\Debug\Folha 7.exe
+E:\Code\PL_2\Aulas\2020-04-03 - Aula 8 - Heranca III\obj\Debug\Folha 7.pdb

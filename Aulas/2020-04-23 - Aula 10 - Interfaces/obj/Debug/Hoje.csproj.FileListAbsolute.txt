@@ -1,0 +1,7 @@
+D:\Temp\Aulas\Hoje\bin\Debug\Hoje.exe.config
+D:\Temp\Aulas\Hoje\bin\Debug\Hoje.exe
+D:\Temp\Aulas\Hoje\bin\Debug\Hoje.pdb
+D:\Temp\Aulas\Hoje\obj\Debug\Hoje.csprojAssemblyReference.cache
+D:\Temp\Aulas\Hoje\obj\Debug\Hoje.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\Hoje\obj\Debug\Hoje.exe
+D:\Temp\Aulas\Hoje\obj\Debug\Hoje.pdb

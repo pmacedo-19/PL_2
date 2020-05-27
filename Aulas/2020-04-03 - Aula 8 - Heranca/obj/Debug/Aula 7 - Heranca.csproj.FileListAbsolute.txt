@@ -1,0 +1,8 @@
+C:\Temp\LP2\Aulas\Aula 7 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.exe.config
+C:\Temp\LP2\Aulas\Aula 7 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.exe
+C:\Temp\LP2\Aulas\Aula 7 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.pdb
+C:\Temp\LP2\Aulas\Aula 7 - Heranca\obj\Debug\Aula 7 - Heranca.csproj.CoreCompileInputs.cache
+C:\Temp\LP2\Aulas\Aula 7 - Heranca\obj\Debug\Aula 7 - Heranca.csproj.CopyComplete
+C:\Temp\LP2\Aulas\Aula 7 - Heranca\obj\Debug\2016-03-08 - Aula 3 - Herança.exe
+C:\Temp\LP2\Aulas\Aula 7 - Heranca\obj\Debug\2016-03-08 - Aula 3 - Herança.pdb
+C:\Temp\LP2\Aulas\Aula 7 - Heranca\obj\Debug\Aula 7 - Heranca.csprojAssemblyReference.cache

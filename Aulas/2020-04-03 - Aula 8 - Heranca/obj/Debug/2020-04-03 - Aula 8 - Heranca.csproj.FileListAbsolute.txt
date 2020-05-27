@@ -1,0 +1,10 @@
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.exe.config
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.exe
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca\bin\Debug\2016-03-08 - Aula 3 - Herança.pdb
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca\bin\Debug\LibExterna.dll
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca\bin\Debug\LibExterna.pdb
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca\obj\Debug\2020-04-03 - Aula 8 - Heranca.csprojAssemblyReference.cache
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca\obj\Debug\2020-04-03 - Aula 8 - Heranca.csproj.CoreCompileInputs.cache
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca\obj\Debug\2020-04-03 - Aula 8 - Heranca.csproj.CopyComplete
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca\obj\Debug\2016-03-08 - Aula 3 - Herança.exe
+D:\Temp\Aulas\2020-04-03 - Aula 8 - Heranca\obj\Debug\2016-03-08 - Aula 3 - Herança.pdb

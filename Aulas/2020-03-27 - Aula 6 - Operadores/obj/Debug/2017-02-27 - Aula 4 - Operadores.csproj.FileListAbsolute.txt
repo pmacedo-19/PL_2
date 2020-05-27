@@ -1,0 +1,4 @@
+C:\Temp\LP2\2017-02-27 - Aula 4 - Operadores\bin\Debug\LibExterna.dll
+C:\Temp\LP2\2017-02-27 - Aula 4 - Operadores\bin\Debug\LibExterna.pdb
+C:\Temp\LP2\2017-02-27 - Aula 4 - Operadores\obj\Debug\LibExterna.dll
+C:\Temp\LP2\2017-02-27 - Aula 4 - Operadores\obj\Debug\LibExterna.pdb

@@ -1,0 +1,8 @@
+H:\2015-2016\Temp\LP2\CodigoAulas\2016-03-08 - Aula 3 - Herança\bin\Debug\2016-03-08 - Aula 3 - Herança.exe.config
+H:\2015-2016\Temp\LP2\CodigoAulas\2016-03-08 - Aula 3 - Herança\bin\Debug\2016-03-08 - Aula 3 - Herança.exe
+H:\2015-2016\Temp\LP2\CodigoAulas\2016-03-08 - Aula 3 - Herança\bin\Debug\2016-03-08 - Aula 3 - Herança.pdb
+H:\2015-2016\Temp\LP2\CodigoAulas\2016-03-08 - Aula 3 - Herança\obj\Debug\2016-03-08 - Aula 3 - Herança.csprojResolveAssemblyReference.cache
+H:\2015-2016\Temp\LP2\CodigoAulas\2016-03-08 - Aula 3 - Herança\obj\Debug\2016-03-08 - Aula 3 - Herança.exe
+H:\2015-2016\Temp\LP2\CodigoAulas\2016-03-08 - Aula 3 - Herança\obj\Debug\2016-03-08 - Aula 3 - Herança.pdb
+H:\2015-2016\Temp\LP2\CodigoAulas\2016-03-08 - Aula 3 - Herança\bin\Debug\2016-03-08 - Aula 3 - HerançaLib.dll
+H:\2015-2016\Temp\LP2\CodigoAulas\2016-03-08 - Aula 3 - Herança\bin\Debug\2016-03-08 - Aula 3 - HerançaLib.pdb
