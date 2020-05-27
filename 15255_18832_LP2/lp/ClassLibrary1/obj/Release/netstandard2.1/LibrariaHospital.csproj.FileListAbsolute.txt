@@ -1,0 +1,3 @@
+C:\Users\Pedro Macedo\Desktop\lp\ClassLibrary1\obj\Release\netstandard2.1\LibrariaHospital.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\ClassLibrary1\obj\Release\netstandard2.1\LibrariaHospital.AssemblyInfoInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\ClassLibrary1\obj\Release\netstandard2.1\LibrariaHospital.AssemblyInfo.cs

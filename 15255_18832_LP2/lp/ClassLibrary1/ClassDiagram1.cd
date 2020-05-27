@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TrabalhoLPII.Doentes">
+    <Position X="3.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAAAQBAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Doentes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrabalhoLPII.Hospital">
+    <Position X="5" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAABAAEAAAAAEAAAAgAwQAAAAAAgBAQgAAAAAAAA=</HashCode>
+      <FileName>Hospital.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrabalhoLPII.Infecao">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQ=</HashCode>
+      <FileName>Infecao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrabalhoLPII.Pessoa">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="TrabalhoLPII.Pessoa.Sexo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Pessoa.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="TrabalhoLPII.Pessoa.Profissao" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Pessoa.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQACEAAAABCBBAAAAAAAAgAAAAgAAAAAQAAAAAEAAgA=</HashCode>
+      <FileName>Pessoa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

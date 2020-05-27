@@ -1,0 +1,4 @@
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp2.1\TrabalhoLPII.csprojAssemblyReference.cache
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp2.1\TrabalhoLPII.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp2.1\TrabalhoLPII.AssemblyInfoInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp2.1\TrabalhoLPII.AssemblyInfo.cs

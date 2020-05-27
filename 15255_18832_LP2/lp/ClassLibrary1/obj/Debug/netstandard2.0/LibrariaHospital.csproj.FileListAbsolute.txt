@@ -1,0 +1,13 @@
+C:\Users\Pedro Macedo\Desktop\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.csprojAssemblyReference.cache
+C:\Users\Pedro Macedo\Desktop\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.AssemblyInfoInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.AssemblyInfo.cs
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\bin\Debug\netstandard2.0\LibrariaHospital.deps.json
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\bin\Debug\netstandard2.0\LibrariaHospital.dll
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\bin\Debug\netstandard2.0\LibrariaHospital.pdb
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.csprojAssemblyReference.cache
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.csproj.CoreCompileInputs.cache
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.AssemblyInfoInputs.cache
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.AssemblyInfo.cs
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.dll
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.pdb

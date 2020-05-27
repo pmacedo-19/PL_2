@@ -1,0 +1,42 @@
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.deps.json
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.runtimeconfig.json
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.runtimeconfig.dev.json
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.dll
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.pdb
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.csprojAssemblyReference.cache
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.csproj.CoreCompileInputs.cache
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.AssemblyInfoInputs.cache
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.AssemblyInfo.cs
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.dll
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.pdb
+/Users/utilizador/Projects/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.genruntimeconfig.cache
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.exe
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.deps.json
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.runtimeconfig.json
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.runtimeconfig.dev.json
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.dll
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.pdb
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.csprojAssemblyReference.cache
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.csproj.CoreCompileInputs.cache
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.AssemblyInfoInputs.cache
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.AssemblyInfo.cs
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.dll
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.pdb
+C:/Users/vlady/Desktop/LESI/2 semestre/LP 2/TP1/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.genruntimeconfig.cache
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.deps.json
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.runtimeconfig.json
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.runtimeconfig.dev.json
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.dll
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/bin/Debug/netcoreapp3.1/TrabalhoLP.pdb
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.csprojAssemblyReference.cache
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.csproj.CoreCompileInputs.cache
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.AssemblyInfoInputs.cache
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.AssemblyInfo.cs
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.dll
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.pdb
+/Users/utilizador/Documents/Pedro-IPCA/LP2/AulaLP/TrabalhoLP/TrabalhoLP/obj/Debug/netcoreapp3.1/TrabalhoLP.genruntimeconfig.cache
+C:\Users\KOD1\Desktop\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLP.csprojAssemblyReference.cache
+C:\Users\KOD1\Desktop\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLP.AssemblyInfoInputs.cache
+C:\Users\KOD1\Desktop\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLP.AssemblyInfo.cs
+C:\Users\KOD1\Desktop\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLP.dll
+C:\Users\KOD1\Desktop\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLP.pdb

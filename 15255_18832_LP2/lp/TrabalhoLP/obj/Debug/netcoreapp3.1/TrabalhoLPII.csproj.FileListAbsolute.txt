@@ -1,0 +1,29 @@
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.csprojAssemblyReference.cache
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.AssemblyInfoInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.AssemblyInfo.cs
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.exe
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.deps.json
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.runtimeconfig.json
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.runtimeconfig.dev.json
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.dll
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.pdb
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.dll
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.pdb
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.genruntimeconfig.cache
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.exe
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.deps.json
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.runtimeconfig.json
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.runtimeconfig.dev.json
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.dll
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\TrabalhoLPII.pdb
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\LibrariaHospital.dll
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\LibrariaHospital.pdb
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.csprojAssemblyReference.cache
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.csproj.CoreCompileInputs.cache
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.AssemblyInfoInputs.cache
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.AssemblyInfo.cs
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.csproj.CopyComplete
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.dll
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.pdb
+E:\Code\15255_18832_LP2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.genruntimeconfig.cache

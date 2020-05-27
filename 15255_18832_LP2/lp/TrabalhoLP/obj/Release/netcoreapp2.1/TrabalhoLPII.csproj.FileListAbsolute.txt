@@ -1,0 +1,3 @@
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Release\netcoreapp2.1\TrabalhoLPII.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Release\netcoreapp2.1\TrabalhoLPII.AssemblyInfoInputs.cache
+C:\Users\Pedro Macedo\Desktop\lp\TrabalhoLP\obj\Release\netcoreapp2.1\TrabalhoLPII.AssemblyInfo.cs
