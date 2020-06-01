@@ -3,7 +3,7 @@ using LibrariaHospital;
 
 namespace LibrariaHospital
 {
-    public abstract class Pessoa
+    public class Pessoa
     {
 
         #region Enums

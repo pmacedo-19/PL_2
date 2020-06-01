@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LibrariaHospital/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibrariaHospital.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibrariaHospital.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibrariaHospital/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/LibrariaHospital.csproj",
+      "msbuildProject": "../ClassLibrary1/LibrariaHospital.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "LibrariaHospital >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Pedro Macedo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\DataFiles\\DataFiles.csproj",
+      "projectName": "DataFiles",
+      "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\DataFiles\\DataFiles.csproj",
+      "packagesPath": "C:\\Users\\Pedro Macedo\\.nuget\\packages\\",
+      "outputPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\DataFiles\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Pedro Macedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj": {
+              "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

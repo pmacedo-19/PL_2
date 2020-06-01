@@ -1,5 +1,7 @@
 ﻿using System;
 using LibrariaHospital;
+using Regras;
+using DataFiles;
 
 
 namespace TrabalhoLPII
@@ -8,6 +10,14 @@ namespace TrabalhoLPII
     {
         static void Main(string[] args)
         {
+
+            #region Ficheiros
+            const string SRC_FILE_BIN_PESSOA = "PessoaData.bin";
+
+
+            #endregion
+
+            #region Testes
             // Dados teste para o programa
             //doençass
             Infecao infecao1 = new Infecao("Bacteria", "Salmonela");
@@ -39,8 +49,8 @@ namespace TrabalhoLPII
             // Obter as fichas de todos os infetados ou ex infetados & O número total de casos infetados
             hos.ToString();
 
-            Console.WriteLine("================================================================================="); 
-           
+            Console.WriteLine("=================================================================================");
+
             // Desativar determinado infetado inserindo o seu id
             hos.DesativarInfetado(4);
 
@@ -51,6 +61,26 @@ namespace TrabalhoLPII
 
             // Obter a ficha de um determinado doente através do id
             hos.MostraFicha(0);
+
+            #endregion
+
+
+            Pessoa pessoa1 = new Pessoa(19, "Ze", 999, DateTime.now, sexo.0, "estudante");
+
+
+            //#region Variaveis
+            //bool sair = false;
+            //#endregion
+
+            //#region Menu
+            //while(!sair)
+            //{
+            //    Console.Clear();
+
+
+            //}
+
+
         }
     }
 }

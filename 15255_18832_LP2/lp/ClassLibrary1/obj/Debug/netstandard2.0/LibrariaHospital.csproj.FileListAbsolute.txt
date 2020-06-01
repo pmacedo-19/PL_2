@@ -11,3 +11,12 @@ E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.
 E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.AssemblyInfo.cs
 E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.dll
 E:\Code\15255_18832_LP2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.pdb
+E:\Code\PL_2\15255_18832_LP2\lp\ClassLibrary1\bin\Debug\netstandard2.0\LibrariaHospital.deps.json
+E:\Code\PL_2\15255_18832_LP2\lp\ClassLibrary1\bin\Debug\netstandard2.0\LibrariaHospital.dll
+E:\Code\PL_2\15255_18832_LP2\lp\ClassLibrary1\bin\Debug\netstandard2.0\LibrariaHospital.pdb
+E:\Code\PL_2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.csprojAssemblyReference.cache
+E:\Code\PL_2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.AssemblyInfoInputs.cache
+E:\Code\PL_2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.AssemblyInfo.cs
+E:\Code\PL_2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.csproj.CoreCompileInputs.cache
+E:\Code\PL_2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.dll
+E:\Code\PL_2\15255_18832_LP2\lp\ClassLibrary1\obj\Debug\netstandard2.0\LibrariaHospital.pdb

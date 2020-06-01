@@ -1,0 +1,4 @@
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\obj\Debug\netcoreapp3.1\Regras.csprojAssemblyReference.cache
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\obj\Debug\netcoreapp3.1\Regras.AssemblyInfoInputs.cache
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\obj\Debug\netcoreapp3.1\Regras.AssemblyInfo.cs
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\obj\Debug\netcoreapp3.1\Regras.csproj.CoreCompileInputs.cache

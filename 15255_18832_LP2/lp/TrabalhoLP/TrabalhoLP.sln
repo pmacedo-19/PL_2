@@ -3,8 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrabalhoLPII", "TrabalhoLPII.csproj", "{A92FC78F-93AF-436B-B889-B11EB0FEA125}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A10A8F4-9EF4-42F4-82B5-2190E55FE6FF} = {5A10A8F4-9EF4-42F4-82B5-2190E55FE6FF}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrariaHospital", "..\ClassLibrary1\LibrariaHospital.csproj", "{B764A869-9DA2-441D-92C6-760A6E643DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrariaHospital", "..\ClassLibrary1\LibrariaHospital.csproj", "{B764A869-9DA2-441D-92C6-760A6E643DF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regras", "..\Regras\Regras.csproj", "{5A10A8F4-9EF4-42F4-82B5-2190E55FE6FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B764A869-9DA2-441D-92C6-760A6E643DF4} = {B764A869-9DA2-441D-92C6-760A6E643DF4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFiles", "..\DataFiles\DataFiles.csproj", "{E2A2359E-F86F-4172-8D69-E55EE2A80628}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +30,14 @@ Global
 		{B764A869-9DA2-441D-92C6-760A6E643DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B764A869-9DA2-441D-92C6-760A6E643DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B764A869-9DA2-441D-92C6-760A6E643DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A10A8F4-9EF4-42F4-82B5-2190E55FE6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A10A8F4-9EF4-42F4-82B5-2190E55FE6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A10A8F4-9EF4-42F4-82B5-2190E55FE6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A10A8F4-9EF4-42F4-82B5-2190E55FE6FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A2359E-F86F-4172-8D69-E55EE2A80628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A2359E-F86F-4172-8D69-E55EE2A80628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A2359E-F86F-4172-8D69-E55EE2A80628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A2359E-F86F-4172-8D69-E55EE2A80628}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
