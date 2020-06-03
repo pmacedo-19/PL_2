@@ -3,6 +3,7 @@ using LibrariaHospital;
 
 namespace LibrariaHospital
 {
+    [Serializable]
     public class Hospital
     {
         #region Estado

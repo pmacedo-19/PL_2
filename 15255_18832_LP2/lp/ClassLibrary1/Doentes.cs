@@ -3,7 +3,7 @@ using LibrariaHospital;
 
 namespace LibrariaHospital
 {
-    
+    [Serializable]
 
     public class Doentes : Pessoa
     {

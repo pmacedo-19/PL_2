@@ -135,11 +135,6 @@ namespace TrabalhoLPII
 
             //}
 
-
-
-            Console.Clear();
-
-            Environment.Exit(0);
         }
     }
 }
