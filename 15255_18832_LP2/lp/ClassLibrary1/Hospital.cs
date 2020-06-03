@@ -7,9 +7,10 @@ namespace LibrariaHospital
     {
         #region Estado
 
-        const int LOTACAO = 100;
+        int lotacao;
         static int nDoentes;
         static Doentes[] doentes;
+        string nome;
 
         #endregion
 
@@ -22,21 +23,37 @@ namespace LibrariaHospital
         /// <returns></returns>
         public Hospital()
         {
-            doentes = new Doentes[LOTACAO];
+            nome = "";
+            lotacao = 0;
             nDoentes = 0;
         }
+
+        public string Nome
+        {
+            get { return Nome; }
+        }
+
 
         #endregion
 
         #region Metodos
         
+        public Hospital(string h, int l, int d, Doentes[] D )
+        {
+            nome = h;
+            lotacao = l;
+            nDoentes = d;
+            doentes = D;
+        }
+
+
         /// <summary>
         /// Regista um doente
         /// </summary>
         /// <param Doentes="d">Ficha do Doente</param>
         public int InsereDoente(Doentes d)
         {
-            if (nDoentes >= LOTACAO) return 0;
+            if (nDoentes >= lotacao) return 0;
 
             doentes[nDoentes] = d;
             nDoentes++;
