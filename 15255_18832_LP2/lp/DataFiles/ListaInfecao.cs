@@ -8,7 +8,7 @@ using LibrariaHospital;
 namespace DataFiles
 {
     [Serializable]
-    class ListaInfecao
+    public class ListaInfecao
     {
         #region Variaveis
 
@@ -127,6 +127,26 @@ namespace DataFiles
             }
             return true;
         }
+
+
+        public static Infecao ProcurarInfecaoNome(string nome)
+        {
+            Infecao auxI = null;
+            try
+            {
+                auxI = lstinfecao.Find(aux => aux.Nome == nome);
+            }
+            catch (ArgumentNullException e)
+            {
+                throw new ArgumentNullException("Error! " + e.Message);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error! " + e.Message);
+            }
+            return auxI;
+        }
+
 
         #endregion
 

@@ -129,6 +129,25 @@ namespace DataFiles
             return true;
         }
 
+        public static Doentes ProcurarDoenteNome(string nome)
+        {
+            Doentes auxD = null;
+            try
+            {
+                auxD = lstdoente.Find(aux => aux.Nome == nome);
+            }
+            catch (ArgumentNullException e)
+            {
+                throw new ArgumentNullException("Error! " + e.Message);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error! " + e.Message);
+            }
+            return auxD;
+        }
+
+
         #endregion
 
         #region Funcoes

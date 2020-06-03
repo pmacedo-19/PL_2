@@ -129,6 +129,27 @@ namespace DataFiles
             return true;
         }
 
+
+        public static Pessoa ProcurarPessoaNome(string nome)
+        {
+           Pessoa auxP = null;
+            try
+            {
+                auxP = lstpessoa.Find(aux => aux.Nome == nome);
+            }
+            catch (ArgumentNullException e)
+            {
+                throw new ArgumentNullException("Error! " + e.Message);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error! " + e.Message);
+            }
+            return auxP;
+        }
+
+
+
         #endregion
 
         #region Funcoes

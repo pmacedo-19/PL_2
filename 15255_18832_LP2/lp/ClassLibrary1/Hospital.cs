@@ -38,12 +38,11 @@ namespace LibrariaHospital
 
         #region Metodos
         
-        public Hospital(string h, int l, int d, Doentes[] D )
+        public Hospital(string h, int l, int d )
         {
             nome = h;
             lotacao = l;
             nDoentes = d;
-            doentes = D;
         }
 
 

@@ -129,6 +129,25 @@ namespace DataFiles
             return true;
         }
 
+        public static Hospital ProcurarHospitalNome(string nome)
+        {
+            Hospital auxH = null;
+            try
+            {
+                auxH = lsthospital.Find(aux => aux.Nome == nome);
+            }
+            catch (ArgumentNullException e)
+            {
+                throw new ArgumentNullException("Error! " + e.Message);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error! " + e.Message);
+            }
+            return auxH;
+        }
+
+
         #endregion
 
         #region Funcoes
