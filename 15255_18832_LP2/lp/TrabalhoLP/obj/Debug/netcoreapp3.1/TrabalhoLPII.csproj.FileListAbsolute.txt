@@ -43,3 +43,7 @@ E:\Code\PL_2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.
 E:\Code\PL_2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.dll
 E:\Code\PL_2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.pdb
 E:\Code\PL_2\15255_18832_LP2\lp\TrabalhoLP\obj\Debug\netcoreapp3.1\TrabalhoLPII.genruntimeconfig.cache
+E:\Code\PL_2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\DataFiles.dll
+E:\Code\PL_2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\RegrasClass.dll
+E:\Code\PL_2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\RegrasClass.pdb
+E:\Code\PL_2\15255_18832_LP2\lp\TrabalhoLP\bin\Debug\netcoreapp3.1\DataFiles.pdb

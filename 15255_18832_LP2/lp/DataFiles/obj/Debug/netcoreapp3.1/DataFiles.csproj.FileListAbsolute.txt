@@ -2,3 +2,11 @@ E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\obj\Debug\netcoreapp3.1\DataFiles.cspr
 E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\obj\Debug\netcoreapp3.1\DataFiles.AssemblyInfoInputs.cache
 E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\obj\Debug\netcoreapp3.1\DataFiles.AssemblyInfo.cs
 E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\obj\Debug\netcoreapp3.1\DataFiles.csproj.CoreCompileInputs.cache
+E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\bin\Debug\netcoreapp3.1\DataFiles.deps.json
+E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\bin\Debug\netcoreapp3.1\DataFiles.dll
+E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\bin\Debug\netcoreapp3.1\DataFiles.pdb
+E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\bin\Debug\netcoreapp3.1\LibrariaHospital.dll
+E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\bin\Debug\netcoreapp3.1\LibrariaHospital.pdb
+E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\obj\Debug\netcoreapp3.1\DataFiles.csproj.CopyComplete
+E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\obj\Debug\netcoreapp3.1\DataFiles.dll
+E:\Code\PL_2\15255_18832_LP2\lp\DataFiles\obj\Debug\netcoreapp3.1\DataFiles.pdb

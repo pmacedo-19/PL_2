@@ -7,6 +7,8 @@ using LibrariaHospital;
 
 namespace DataFiles
 {
+
+    [Serializable]
     public class ListaPessoa
     {
         #region Variaveis

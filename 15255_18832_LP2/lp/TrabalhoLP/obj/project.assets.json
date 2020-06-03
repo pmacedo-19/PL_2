@@ -25,7 +25,7 @@
           "bin/placeholder/LibrariaHospital.dll": {}
         }
       },
-      "Regras/1.0.0": {
+      "RegrasClass/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -33,10 +33,10 @@
           "LibrariaHospital": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Regras.dll": {}
+          "bin/placeholder/RegrasClass.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Regras.dll": {}
+          "bin/placeholder/RegrasClass.dll": {}
         }
       }
     }
@@ -52,16 +52,16 @@
       "path": "../ClassLibrary1/LibrariaHospital.csproj",
       "msbuildProject": "../ClassLibrary1/LibrariaHospital.csproj"
     },
-    "Regras/1.0.0": {
+    "RegrasClass/1.0.0": {
       "type": "project",
-      "path": "../Regras/Regras.csproj",
-      "msbuildProject": "../Regras/Regras.csproj"
+      "path": "../Regras/RegrasClass.csproj",
+      "msbuildProject": "../Regras/RegrasClass.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "LibrariaHospital >= 1.0.0",
-      "Regras >= 1.0.0"
+      "RegrasClass >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -93,8 +93,8 @@
             "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj": {
               "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\ClassLibrary1\\LibrariaHospital.csproj"
             },
-            "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\Regras\\Regras.csproj": {
-              "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\Regras\\Regras.csproj"
+            "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\Regras\\RegrasClass.csproj": {
+              "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\Regras\\RegrasClass.csproj"
             }
           }
         }

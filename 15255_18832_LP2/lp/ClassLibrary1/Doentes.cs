@@ -49,7 +49,7 @@ namespace LibrariaHospital
         /// <param "sexo" - Sexo do doente</param>
         /// <param "profissao" - Profissao do doente</param>
         public Doentes( Infecao inf, int idade, string nome, int regiao, DateTime dataNasc, int sexo, int profissao) 
-                        : base (idade, nome, regiao, dataNasc, sexo, profissao)
+                        : base (idade, nome, dataNasc, sexo, profissao)
         {
             this.infetado = inf;
             this.ativo = true;

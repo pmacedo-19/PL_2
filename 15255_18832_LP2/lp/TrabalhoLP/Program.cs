@@ -1,7 +1,6 @@
-﻿using System;
-using LibrariaHospital;
-using Regras;
-using DataFiles;
+﻿using LibrariaHospital;
+using RegrasClass;
+using System;
 
 
 namespace TrabalhoLPII
@@ -13,6 +12,7 @@ namespace TrabalhoLPII
 
             #region Ficheiros
             const string SRC_FILE_BIN_PESSOA = "PessoaData.bin";
+            const string SRC_FILE_BIN_DOENTES = "DoentesData.bin";
 
 
             #endregion
@@ -65,7 +65,33 @@ namespace TrabalhoLPII
             #endregion
 
 
-            Pessoa pessoa1 = new Pessoa(19, "Ze", 999, DateTime.now, sexo.0, "estudante");
+            Pessoa pessoa1 = new Pessoa(19, "Ze", DateTime.Now, 1, 1);
+
+            try
+            {
+                Regras.InserirPessoa(pessoa1, 7);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Erro: {0}", e.Message);
+            }
+
+            Regras.ListaPessoaSaveBinFile(SRC_FILE_BIN_PESSOA, 7);
+
+
+            Doentes d1 = new Doentes(infecao1, 32, "Ricardo", 0, DateTime.Today, 0, 0);
+
+            try
+            {
+                Regras.InserirDoente(d1, 7);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Erro: {0}", e.Message);
+            }
+
+            Regras.ListaDoentesSaveBinFile(SRC_FILE_BIN_DOENTES, 7);
+
 
 
             //#region Variaveis
@@ -81,6 +107,10 @@ namespace TrabalhoLPII
             //}
 
 
+
+            Console.Clear();
+
+            Environment.Exit(0);
         }
     }
 }

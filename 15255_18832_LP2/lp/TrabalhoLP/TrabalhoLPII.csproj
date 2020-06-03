@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\LibrariaHospital.csproj" />
-    <ProjectReference Include="..\Regras\Regras.csproj" />
+    <ProjectReference Include="..\Regras\RegrasClass.csproj" />
   </ItemGroup>
 
 </Project>

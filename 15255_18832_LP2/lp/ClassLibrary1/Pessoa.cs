@@ -59,7 +59,7 @@ namespace LibrariaHospital
         /// <param "i" - Idade /param>
         /// <param "n" - Nome /param>
         /// <param "date" - DataNascimento /param>
-        public Pessoa(int i, string n, int d, DateTime date, int sexo, int profissao)
+        public Pessoa(int i, string n, DateTime date, int sexo, int profissao)
         { 
             nome = n;
             idade = i;

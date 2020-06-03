@@ -9,12 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrabalhoLPII", "TrabalhoLPI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrariaHospital", "..\ClassLibrary1\LibrariaHospital.csproj", "{B764A869-9DA2-441D-92C6-760A6E643DF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regras", "..\Regras\Regras.csproj", "{5A10A8F4-9EF4-42F4-82B5-2190E55FE6FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegrasClass", "..\Regras\RegrasClass.csproj", "{5A10A8F4-9EF4-42F4-82B5-2190E55FE6FF}"
 	ProjectSection(ProjectDependencies) = postProject
 		{B764A869-9DA2-441D-92C6-760A6E643DF4} = {B764A869-9DA2-441D-92C6-760A6E643DF4}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFiles", "..\DataFiles\DataFiles.csproj", "{E2A2359E-F86F-4172-8D69-E55EE2A80628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataFiles", "..\DataFiles\DataFiles.csproj", "{E2A2359E-F86F-4172-8D69-E55EE2A80628}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

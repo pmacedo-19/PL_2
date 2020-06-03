@@ -51,9 +51,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\Regras\\Regras.csproj",
-      "projectName": "Regras",
-      "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\Regras\\Regras.csproj",
+      "projectUniqueName": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\Regras\\RegrasClass.csproj",
+      "projectName": "RegrasClass",
+      "projectPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\Regras\\RegrasClass.csproj",
       "packagesPath": "C:\\Users\\Pedro Macedo\\.nuget\\packages\\",
       "outputPath": "E:\\Code\\PL_2\\15255_18832_LP2\\lp\\Regras\\obj\\",
       "projectStyle": "PackageReference",

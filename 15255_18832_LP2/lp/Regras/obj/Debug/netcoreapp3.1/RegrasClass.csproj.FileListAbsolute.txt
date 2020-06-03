@@ -1,0 +1,14 @@
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\obj\Debug\netcoreapp3.1\RegrasClass.AssemblyInfoInputs.cache
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\obj\Debug\netcoreapp3.1\RegrasClass.AssemblyInfo.cs
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\obj\Debug\netcoreapp3.1\RegrasClass.csproj.CoreCompileInputs.cache
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\bin\Debug\netcoreapp3.1\RegrasClass.deps.json
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\bin\Debug\netcoreapp3.1\RegrasClass.dll
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\bin\Debug\netcoreapp3.1\RegrasClass.pdb
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\bin\Debug\netcoreapp3.1\DataFiles.dll
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\bin\Debug\netcoreapp3.1\LibrariaHospital.dll
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\bin\Debug\netcoreapp3.1\LibrariaHospital.pdb
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\bin\Debug\netcoreapp3.1\DataFiles.pdb
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\obj\Debug\netcoreapp3.1\RegrasClass.csprojAssemblyReference.cache
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\obj\Debug\netcoreapp3.1\RegrasClass.csproj.CopyComplete
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\obj\Debug\netcoreapp3.1\RegrasClass.dll
+E:\Code\PL_2\15255_18832_LP2\lp\Regras\obj\Debug\netcoreapp3.1\RegrasClass.pdb
