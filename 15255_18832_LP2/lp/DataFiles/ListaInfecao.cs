@@ -49,12 +49,12 @@ namespace DataFiles
 
         public void RemoveInfecao(Infecao infecao)
         {
-            // If we do not have a friend with this name
+            // Caso nao exista essa infecao
             if (!lstinfecao.Contains(infecao))
             {
                 Console.WriteLine(infecao.Nome + " had not been added before.");
             }
-            // Else if we have a friend with this name
+            // Caso exista a infecao
             else
             {
                 if (lstinfecao.Remove(infecao))
@@ -64,8 +64,8 @@ namespace DataFiles
                 else
                 {
                     Console.WriteLine("Unable to remove " + infecao.Nome);
-                } // end if
-            } // end if
+                } 
+            } 
         }
 
         public static bool SaveBinFile(string filename)

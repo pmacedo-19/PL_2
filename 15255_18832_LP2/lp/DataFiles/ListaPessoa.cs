@@ -13,6 +13,7 @@ namespace DataFiles
     {
         #region Variaveis
 
+        // Criacao de uma lista pessoa vazia
         private static List<Pessoa> lstpessoa = null;
 
         private static BinaryFormatter formatter;
@@ -20,6 +21,11 @@ namespace DataFiles
         #endregion
 
         #region Construtores
+
+        #endregion
+
+        #region Funcoes
+        
         /// <summary>
         /// Criacao de lista para guardar pessoas
         /// </summary>
@@ -30,10 +36,10 @@ namespace DataFiles
         }
 
         /// <summary>
-        /// Construtor de dados externos
+        /// Construtor de dados externos para adicionar um pessoa
         /// </summary>
-        /// Recebe o objeto Pessoa
-        
+        /// <param name="pessoa"> recebe a estrutura pessoa que se pretende adicionar </param>
+        /// <returns></returns>
         public static bool AddPessoa(Pessoa pessoa)
         {
             try
@@ -48,14 +54,18 @@ namespace DataFiles
             return true;
         }
 
+        /// <summary>
+        /// Metodo para remover uma pessoa da lista
+        /// </summary>
+        /// <param name="pessoa"> Recebe a pessoa que se pretende remover </param>
         public void RemovePessoa(Pessoa pessoa)
         {
-            // If we do not have a friend with this name
+            // Caso nao exista essa pessoa
             if (!lstpessoa.Contains(pessoa))
             {
                 Console.WriteLine(pessoa.Nome + " had not been added before.");
             }
-            // Else if we have a friend with this name
+            // Caso exista essa pessoa
             else
             {
                 if (lstpessoa.Remove(pessoa))
@@ -65,13 +75,18 @@ namespace DataFiles
                 else
                 {
                     Console.WriteLine("Unable to remove " + pessoa.Nome);
-                } // end if
-            } // end if
+                }
+            }
         }
 
+        /// <summary>
+        /// Funcao para guardar a lista pessoa em ficheiro binario
+        /// </summary>
+        /// <param name="filename"> Ficheiro para o qual guarda a lista pessoa </param>
+        /// <returns></returns>
         public static bool SaveBinFile(string filename)
         {
-            try 
+            try
             {
                 Stream str = File.Open(filename, FileMode.Create, FileAccess.Write);
                 formatter.Serialize(str, lstpessoa);
@@ -99,6 +114,11 @@ namespace DataFiles
             return true;
         }
 
+        /// <summary>
+        /// Funcao para carregar informacao da lista pessoa de ficheiro binario
+        /// </summary>
+        /// <param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
+        /// <returns></returns>
         public static bool LoadBinFile(string filename)
         {
             try
@@ -129,10 +149,14 @@ namespace DataFiles
             return true;
         }
 
-
+        /// <summary>
+        /// Funco para procurar uma pessoa na lista pelo nome
+        /// </summary>
+        /// <param name="nome"> Nome da pessoa que se quer procurar </param>
+        /// <returns></returns>
         public static Pessoa ProcurarPessoaNome(string nome)
         {
-           Pessoa auxP = null;
+            Pessoa auxP = null;
             try
             {
                 auxP = lstpessoa.Find(aux => aux.Nome == nome);
@@ -147,14 +171,6 @@ namespace DataFiles
             }
             return auxP;
         }
-
-
-
-        #endregion
-
-        #region Funcoes
-
-
         #endregion
 
         #region Properties

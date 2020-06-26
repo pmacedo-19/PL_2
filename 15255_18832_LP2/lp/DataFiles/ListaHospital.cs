@@ -50,12 +50,12 @@ namespace DataFiles
 
         public void Removehospital(Hospital hospital)
         {
-            // If we do not have a friend with this name
+            // Caso nao exista esse hospital
             if (!lsthospital.Contains(hospital))
             {
                 Console.WriteLine(hospital.Nome + " had not been added before.");
             }
-            // Else if we have a friend with this name
+            // Caso exista esse hospital
             else
             {
                 if (lsthospital.Remove(hospital))
@@ -65,8 +65,8 @@ namespace DataFiles
                 else
                 {
                     Console.WriteLine("Unable to remove " + hospital.Nome);
-                } // end if
-            } // end if
+                } 
+            } 
         }
 
         public static bool SaveBinFile(string filename)

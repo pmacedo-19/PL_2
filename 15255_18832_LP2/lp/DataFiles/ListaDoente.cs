@@ -20,8 +20,12 @@ namespace DataFiles
         #endregion
 
         #region Construtores
+
+        #endregion
+
+        #region Funcoes
         /// <summary>
-        /// Criacao de lista para guardar pessoas
+        /// Criacao de lista pessoa para guardar um doente
         /// </summary>
         static ListaDoentes()
         {
@@ -30,10 +34,10 @@ namespace DataFiles
         }
 
         /// <summary>
-        /// Construtor de dados externos
+        /// Funcao para adicionar um doente a lista
         /// </summary>
-        /// Recebe o objeto Pessoa
-
+        /// <param name="doente"> Recebe o doente a adicionar </param>
+        /// <returns></returns>
         public static bool AddDoente(Doentes doente)
         {
             try
@@ -48,14 +52,18 @@ namespace DataFiles
             return true;
         }
 
+        /// <summary>
+        /// Funcao para remover um doente da lista
+        /// </summary>
+        /// <param name="doente"> Recebe o nome do doente a remover </param>
         public void RemoveDoente(Doentes doente)
         {
-            // If we do not have a friend with this name
+            // Caso nao exista esse doente
             if (!lstdoente.Contains(doente))
             {
                 Console.WriteLine(doente.Nome + " had not been added before.");
             }
-            // Else if we have a friend with this name
+            // Caso exista o doente
             else
             {
                 if (lstdoente.Remove(doente))
@@ -65,10 +73,15 @@ namespace DataFiles
                 else
                 {
                     Console.WriteLine("Unable to remove " + doente.Nome);
-                } // end if
-            } // end if
+                }
+            }
         }
 
+        /// <summary>
+        /// Funcao para guardar a lista num ficheiro binario
+        /// </summary>
+        /// <param name="filename"> Ficheiro para o qual guarda a lista doente </param>
+        /// <returns></returns>
         public static bool SaveBinFile(string filename)
         {
             try
@@ -99,6 +112,11 @@ namespace DataFiles
             return true;
         }
 
+        /// <summary>
+        /// Funcao para carregar informacao da lista pessoa de ficheiro binario
+        /// </summary>
+        /// <param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
+        /// <returns></returns>
         public static bool LoadBinFile(string filename)
         {
             try
@@ -129,6 +147,11 @@ namespace DataFiles
             return true;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="nome"></param>
+        /// <returns></returns>
         public static Doentes ProcurarDoenteNome(string nome)
         {
             Doentes auxD = null;
@@ -147,10 +170,6 @@ namespace DataFiles
             return auxD;
         }
 
-
-        #endregion
-
-        #region Funcoes
 
 
         #endregion
