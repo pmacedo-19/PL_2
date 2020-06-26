@@ -3,6 +3,9 @@ using LibrariaHospital;
 
 namespace LibrariaHospital
 {
+    /// <summary>
+    /// Objeto para guardar informacao das infecoes
+    /// </summary>
     [Serializable]
     public class Infecao
     {
@@ -34,9 +37,14 @@ namespace LibrariaHospital
         }
 
         #endregion
-        
+
         #region Construtor
 
+        /// <summary>
+        /// Criacao do objeto infecao
+        /// </summary>
+        /// <param name="t"> Tipo de infecao (virus,bacteri, etc...) </param>
+        /// <param name="n"> Nome da infecao </param>
         public Infecao(string t, string n)
         {
             nome = n;

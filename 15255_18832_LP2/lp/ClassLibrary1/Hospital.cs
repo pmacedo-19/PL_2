@@ -3,6 +3,9 @@ using LibrariaHospital;
 
 namespace LibrariaHospital
 {
+    /// <summary>
+    /// Objeto para guardar informacoes de hospitais e suas lotacoes
+    /// </summary>
     [Serializable]
     public class Hospital
     {
@@ -20,8 +23,6 @@ namespace LibrariaHospital
         /// <summary>
         /// Construtor da classe Hospital
         /// </summary>
-        /// <param></param>
-        /// <returns></returns>
         public Hospital()
         {
             nome = "";
@@ -65,8 +66,8 @@ namespace LibrariaHospital
         /// <summary>
         /// Regista uma infecao num doente
         /// </summary>
-        /// <param Doentes="d">Ficha do Doente</param>
-        /// <param Infecao="infec">Informcao sobre a infecao</param>
+        /// <param Doentes="d"> Ficha do Doente </param>
+        /// <param Infecao="infec"> Informcao sobre a infecao </param>
         public static void RegistaInfecao(Infecao infec, Doentes d)
         {
             d.AdicionarInfecao = infec;
@@ -199,35 +200,3 @@ namespace LibrariaHospital
         #endregion
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

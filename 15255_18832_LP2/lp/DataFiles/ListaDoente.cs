@@ -8,6 +8,9 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace DataFiles
 {
+    /// <summary>
+    /// Class para gestao de listas de doentes
+    /// </summary>
     [Serializable]
     public class ListaDoentes
     {
@@ -25,7 +28,7 @@ namespace DataFiles
 
         #region Funcoes
         /// <summary>
-        /// Criacao de lista pessoa para guardar um doente
+        /// Criacao de lista pessoa para guardar o objeto doente
         /// </summary>
         static ListaDoentes()
         {
@@ -148,9 +151,9 @@ namespace DataFiles
         }
 
         /// <summary>
-        /// 
+        /// Funcao para procurar um doente pelo nome
         /// </summary>
-        /// <param name="nome"></param>
+        /// <param name="nome"> Nome do doente a procurar </param>
         /// <returns></returns>
         public static Doentes ProcurarDoenteNome(string nome)
         {

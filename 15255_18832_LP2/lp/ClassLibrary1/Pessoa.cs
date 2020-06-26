@@ -3,6 +3,9 @@ using LibrariaHospital;
 
 namespace LibrariaHospital
 {
+    /// <summary>
+    /// Objeto para guardar informacao pessoal de pessoas
+    /// </summary>
     [Serializable]
     public class Pessoa
     {
@@ -45,8 +48,6 @@ namespace LibrariaHospital
         /// <summary>
         /// Construtor para os dados pessoais
         /// </summary>
-        
-        // Incializacao da estrutura
         public Pessoa()
         {
             idade = 0;

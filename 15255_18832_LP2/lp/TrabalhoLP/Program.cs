@@ -1,4 +1,17 @@
-﻿using LibrariaHospital;
+﻿/*
+ * 
+ * Autores do projeto: Pedro Macedo || Ricardo Silva
+ * Disciplina: Linguagem de programação II
+ * Projeto I Fase 4 (Melhoria)
+ * Objetivo do projeto:  Ferramenta de gestão de:
+ *                              - Doentes e não doentes;
+ *                              - Infeções;
+ *                              - Hospitais;
+ * 
+ */
+
+
+using LibrariaHospital;
 using RegrasClass;
 using System;
 using System.Security;

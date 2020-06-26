@@ -7,7 +7,9 @@ using LibrariaHospital;
 
 namespace DataFiles
 {
-
+    /// <summary>
+    /// Class para gestao de listas de pessoas
+    /// </summary>
     [Serializable]
     public class ListaPessoa
     {
@@ -27,7 +29,7 @@ namespace DataFiles
         #region Funcoes
         
         /// <summary>
-        /// Criacao de lista para guardar pessoas
+        /// Criacao de lista para guardar um objeto pessoa
         /// </summary>
         static ListaPessoa()
         {

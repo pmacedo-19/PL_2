@@ -8,6 +8,9 @@ using System.IO;
 
 namespace DataFiles
 {
+    /// <summary>
+    /// Class para gestao de listas de hospitais
+    /// </summary>
     [Serializable]
     public class ListaHospital
     {
@@ -21,7 +24,7 @@ namespace DataFiles
 
         #region Construtores
         /// <summary>
-        /// Criacao de lista para guardar hospitals
+        /// Criacao de lista para guardar o objeto hospital
         /// </summary>
         static ListaHospital()
         {
@@ -30,10 +33,10 @@ namespace DataFiles
         }
 
         /// <summary>
-        /// Construtor de dados externos
+        /// Funcao para adicionar um hospital a lista
         /// </summary>
-        /// Recebe o objeto hospital
-
+        /// <param name="hospital"> Recebe o Hospital a adicionar</param>
+        /// <returns></returns>
         public static bool Addhospital(Hospital hospital)
         {
             try
@@ -48,6 +51,10 @@ namespace DataFiles
             return true;
         }
 
+        /// <summary>
+        /// Funcao para remover um hospital da lista
+        /// </summary>
+        /// <param name="hospital"> Recebe o nome do Hospital a remover </param>
         public void Removehospital(Hospital hospital)
         {
             // Caso nao exista esse hospital
@@ -69,6 +76,11 @@ namespace DataFiles
             } 
         }
 
+        /// <summary>
+        /// Funcao para guardar a lista num ficheiro binario
+        /// </summary>
+        /// <param name="filename"> Ficheiro para o qual guarda a lista hospital </param>
+        /// <returns></returns>
         public static bool SaveBinFile(string filename)
         {
             try
@@ -99,6 +111,11 @@ namespace DataFiles
             return true;
         }
 
+        /// <summary>
+        /// Funcao para carregar informacao da lista hospital de ficheiro binario
+        /// </summary>
+        /// <param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
+        /// <returns></returns>
         public static bool LoadBinFile(string filename)
         {
             try
@@ -129,6 +146,11 @@ namespace DataFiles
             return true;
         }
 
+        /// <summary>
+        /// Funcao para procurar um hospital pelo nome
+        /// </summary>
+        /// <param name="nome"> Nome do hospital a procurar </param>
+        /// <returns></returns>
         public static Hospital ProcurarHospitalNome(string nome)
         {
             Hospital auxH = null;
@@ -163,7 +185,6 @@ namespace DataFiles
 
         #region Overrides
         #endregion
-
 
     }
 }

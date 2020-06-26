@@ -7,6 +7,9 @@ using LibrariaHospital;
 
 namespace DataFiles
 {
+    /// <summary>
+    /// Class para gestao de listas de Infecoes
+    /// </summary>
     [Serializable]
     public class ListaInfecao
     {
@@ -20,7 +23,7 @@ namespace DataFiles
 
         #region Construtores
         /// <summary>
-        /// Criacao de lista para guardar infecaos
+        /// Criacao de lista para guardar guardar um objeto infecao
         /// </summary>
         static ListaInfecao()
         {
@@ -29,10 +32,10 @@ namespace DataFiles
         }
 
         /// <summary>
-        /// Construtor de dados externos
+        /// Funcao para adicionar uma infecao a lista
         /// </summary>
-        /// Recebe o objeto Infecao
-
+        /// <param name="infecao"> Recebe a infecao a adicionar </param>
+        /// <returns></returns>
         public static bool AddInfecao(Infecao infecao)
         {
             try
@@ -47,6 +50,10 @@ namespace DataFiles
             return true;
         }
 
+        /// <summary>
+        /// Funcao para remover uma infecao da lista
+        /// </summary>
+        /// <param name="infecao"> Recebe o nome da Infecao a remover </param>
         public void RemoveInfecao(Infecao infecao)
         {
             // Caso nao exista essa infecao
@@ -68,6 +75,11 @@ namespace DataFiles
             } 
         }
 
+        /// <summary>
+        /// Funcao para guardar a lista num ficheiro binario
+        /// </summary>
+        /// <param name="filename"> Ficheiro para o qual guarda a lista infecao </param>
+        /// <returns></returns>
         public static bool SaveBinFile(string filename)
         {
             try
@@ -98,6 +110,11 @@ namespace DataFiles
             return true;
         }
 
+        /// <summary>
+        /// Funcao para carregar informacao da lista infecao de ficheiro binario
+        /// </summary>
+        /// <param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
+        /// <returns></returns>
         public static bool LoadBinFile(string filename)
         {
             try
@@ -128,7 +145,11 @@ namespace DataFiles
             return true;
         }
 
-
+        /// <summary>
+        /// Funcao para procurar uma infecao pelo nome
+        /// </summary>
+        /// <param name="nome"> Nome da infecao a procurar </param>
+        /// <returns></returns>
         public static Infecao ProcurarInfecaoNome(string nome)
         {
             Infecao auxI = null;

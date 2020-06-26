@@ -3,8 +3,10 @@ using LibrariaHospital;
 
 namespace LibrariaHospital
 {
+    /// <summary>
+    /// Objeto para guardar informacao dos doentes e suas infecoes
+    /// </summary>
     [Serializable]
-
     public class Doentes : Pessoa
     {
         #region Estado
