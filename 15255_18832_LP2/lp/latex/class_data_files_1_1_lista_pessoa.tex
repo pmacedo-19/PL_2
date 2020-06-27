@@ -1,0 +1,302 @@
+\hypertarget{class_data_files_1_1_lista_pessoa}{}\doxysection{Data\+Files.\+Lista\+Pessoa Class Reference}
+\label{class_data_files_1_1_lista_pessoa}\index{DataFiles.ListaPessoa@{DataFiles.ListaPessoa}}
+
+
+Class para gestao de listas de pessoas  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a32ffd0ef179fb86e8ac8484176a26c17}{Remove\+Pessoa}} (\mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}} pessoa)
+\begin{DoxyCompactList}\small\item\em Metodo para remover uma pessoa da lista \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a116319b5edba2e29f0a20eceb187e1e1}{Add\+Pessoa}} (\mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}} pessoa)
+\begin{DoxyCompactList}\small\item\em Construtor de dados externos para adicionar um pessoa \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a2c94484c8c52a0a86604243466a99815}{Save\+Bin\+File}} (string filename)
+\begin{DoxyCompactList}\small\item\em Funcao para guardar a lista pessoa em ficheiro binario \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a74a4c251b5432ca0545648984cdf6854}{Load\+Bin\+File}} (string filename)
+\begin{DoxyCompactList}\small\item\em Funcao para carregar informacao da lista pessoa de ficheiro binario \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}} \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a7a197f9fe143c674473d775e36a0c6e0}{Procurar\+Pessoa\+Nome}} (string nome)
+\begin{DoxyCompactList}\small\item\em Funco para procurar uma pessoa na lista pelo nome \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a2985bd729d8228bdfeeb7e25875c5597}{Lista\+Pessoa}} ()
+\begin{DoxyCompactList}\small\item\em Criacao de lista para guardar um objeto pessoa \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}} $>$ \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a5a160f931c8ba21c0b26527df626115f}{lstpessoa}} = null
+\item 
+static Binary\+Formatter \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a96f42092a2056b5a085d3157df72e17b}{formatter}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class para gestao de listas de pessoas 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_pessoa_a2985bd729d8228bdfeeb7e25875c5597}\label{class_data_files_1_1_lista_pessoa_a2985bd729d8228bdfeeb7e25875c5597}} 
+\index{DataFiles.ListaPessoa@{DataFiles.ListaPessoa}!ListaPessoa@{ListaPessoa}}
+\index{ListaPessoa@{ListaPessoa}!DataFiles.ListaPessoa@{DataFiles.ListaPessoa}}
+\doxysubsubsection{\texorpdfstring{ListaPessoa()}{ListaPessoa()}}
+{\footnotesize\ttfamily static Data\+Files.\+Lista\+Pessoa.\+Lista\+Pessoa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Criacao de lista para guardar um objeto pessoa 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{35         \{}
+\DoxyCodeLine{36             \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a5a160f931c8ba21c0b26527df626115f}{lstpessoa}} = \textcolor{keyword}{new} List<Pessoa>();}
+\DoxyCodeLine{37             \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a96f42092a2056b5a085d3157df72e17b}{formatter}} = \textcolor{keyword}{new} BinaryFormatter();}
+\DoxyCodeLine{38         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_pessoa_a116319b5edba2e29f0a20eceb187e1e1}\label{class_data_files_1_1_lista_pessoa_a116319b5edba2e29f0a20eceb187e1e1}} 
+\index{DataFiles.ListaPessoa@{DataFiles.ListaPessoa}!AddPessoa@{AddPessoa}}
+\index{AddPessoa@{AddPessoa}!DataFiles.ListaPessoa@{DataFiles.ListaPessoa}}
+\doxysubsubsection{\texorpdfstring{AddPessoa()}{AddPessoa()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Pessoa.\+Add\+Pessoa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}}}]{pessoa }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Construtor de dados externos para adicionar um pessoa 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}pessoa\char`\"{}$>$} & recebe a estrutura pessoa que se pretende adicionar \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{46         \{}
+\DoxyCodeLine{47             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{48             \{}
+\DoxyCodeLine{49                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a5a160f931c8ba21c0b26527df626115f}{lstpessoa}}.Contains(pessoa)) \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{50                 \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a5a160f931c8ba21c0b26527df626115f}{lstpessoa}}.Add(pessoa);}
+\DoxyCodeLine{51             \}}
+\DoxyCodeLine{52             \textcolor{keywordflow}{catch} (Exception e)}
+\DoxyCodeLine{53             \{}
+\DoxyCodeLine{54                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{55             \}}
+\DoxyCodeLine{56             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{57         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_pessoa_a74a4c251b5432ca0545648984cdf6854}\label{class_data_files_1_1_lista_pessoa_a74a4c251b5432ca0545648984cdf6854}} 
+\index{DataFiles.ListaPessoa@{DataFiles.ListaPessoa}!LoadBinFile@{LoadBinFile}}
+\index{LoadBinFile@{LoadBinFile}!DataFiles.ListaPessoa@{DataFiles.ListaPessoa}}
+\doxysubsubsection{\texorpdfstring{LoadBinFile()}{LoadBinFile()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Pessoa.\+Load\+Bin\+File (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para carregar informacao da lista pessoa de ficheiro binario 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}filename\char`\"{}$>$} & Ficheiro binario do qual carrega as informacoes da lista \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{125         \{}
+\DoxyCodeLine{126             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{127             \{}
+\DoxyCodeLine{128                 Stream str = File.Open(filename, FileMode.Open, FileAccess.Read);}
+\DoxyCodeLine{129                 \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a5a160f931c8ba21c0b26527df626115f}{lstpessoa}} = (List<Pessoa>)\mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a96f42092a2056b5a085d3157df72e17b}{formatter}}.Deserialize(str);}
+\DoxyCodeLine{130                 str.Flush(); \textcolor{comment}{// Limpar buffer}}
+\DoxyCodeLine{131                 str.Close(); \textcolor{comment}{// Fechar acesso a stream}}
+\DoxyCodeLine{132                 str.Dispose(); \textcolor{comment}{// Libertar rescursos usados pela stream}}
+\DoxyCodeLine{133             \}}
+\DoxyCodeLine{134             \textcolor{comment}{// Erros de excecao}}
+\DoxyCodeLine{135             \textcolor{keywordflow}{catch} (FileNotFoundException f)}
+\DoxyCodeLine{136             \{}
+\DoxyCodeLine{137                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} FileNotFoundException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{138             \}}
+\DoxyCodeLine{139             \textcolor{keywordflow}{catch} (SerializationException f)}
+\DoxyCodeLine{140             \{}
+\DoxyCodeLine{141                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} SerializationException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{142             \}}
+\DoxyCodeLine{143             \textcolor{keywordflow}{catch} (IOException f)}
+\DoxyCodeLine{144             \{}
+\DoxyCodeLine{145                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} IOException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{146             \}}
+\DoxyCodeLine{147             \textcolor{keywordflow}{catch} (Exception f)}
+\DoxyCodeLine{148             \{}
+\DoxyCodeLine{149                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{150             \}}
+\DoxyCodeLine{151             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{152         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_pessoa_a7a197f9fe143c674473d775e36a0c6e0}\label{class_data_files_1_1_lista_pessoa_a7a197f9fe143c674473d775e36a0c6e0}} 
+\index{DataFiles.ListaPessoa@{DataFiles.ListaPessoa}!ProcurarPessoaNome@{ProcurarPessoaNome}}
+\index{ProcurarPessoaNome@{ProcurarPessoaNome}!DataFiles.ListaPessoa@{DataFiles.ListaPessoa}}
+\doxysubsubsection{\texorpdfstring{ProcurarPessoaNome()}{ProcurarPessoaNome()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}} Data\+Files.\+Lista\+Pessoa.\+Procurar\+Pessoa\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funco para procurar uma pessoa na lista pelo nome 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}nome\char`\"{}$>$} & Nome da pessoa que se quer procurar \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{160         \{}
+\DoxyCodeLine{161             \mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}} auxP = \textcolor{keyword}{null};}
+\DoxyCodeLine{162             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{163             \{}
+\DoxyCodeLine{164                 auxP = \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a5a160f931c8ba21c0b26527df626115f}{lstpessoa}}.Find(aux => aux.Nome == nome);}
+\DoxyCodeLine{165             \}}
+\DoxyCodeLine{166             \textcolor{keywordflow}{catch} (ArgumentNullException e)}
+\DoxyCodeLine{167             \{}
+\DoxyCodeLine{168                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentNullException(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{169             \}}
+\DoxyCodeLine{170             \textcolor{keywordflow}{catch} (Exception e)}
+\DoxyCodeLine{171             \{}
+\DoxyCodeLine{172                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{173             \}}
+\DoxyCodeLine{174             \textcolor{keywordflow}{return} auxP;}
+\DoxyCodeLine{175         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_pessoa_a32ffd0ef179fb86e8ac8484176a26c17}\label{class_data_files_1_1_lista_pessoa_a32ffd0ef179fb86e8ac8484176a26c17}} 
+\index{DataFiles.ListaPessoa@{DataFiles.ListaPessoa}!RemovePessoa@{RemovePessoa}}
+\index{RemovePessoa@{RemovePessoa}!DataFiles.ListaPessoa@{DataFiles.ListaPessoa}}
+\doxysubsubsection{\texorpdfstring{RemovePessoa()}{RemovePessoa()}}
+{\footnotesize\ttfamily void Data\+Files.\+Lista\+Pessoa.\+Remove\+Pessoa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}}}]{pessoa }\end{DoxyParamCaption})}
+
+
+
+Metodo para remover uma pessoa da lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}pessoa\char`\"{}$>$} & Recebe a pessoa que se pretende remover \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{64         \{}
+\DoxyCodeLine{65             \textcolor{comment}{// Caso nao exista essa pessoa}}
+\DoxyCodeLine{66             \textcolor{keywordflow}{if} (!\mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a5a160f931c8ba21c0b26527df626115f}{lstpessoa}}.Contains(pessoa))}
+\DoxyCodeLine{67             \{}
+\DoxyCodeLine{68                 Console.WriteLine(pessoa.\mbox{\hyperlink{class_libraria_hospital_1_1_pessoa_a5186e2862ad1bd75b60f610ed9f0a631}{Nome}} + \textcolor{stringliteral}{" had not been added before."});}
+\DoxyCodeLine{69             \}}
+\DoxyCodeLine{70             \textcolor{comment}{// Caso exista essa pessoa}}
+\DoxyCodeLine{71             \textcolor{keywordflow}{else}}
+\DoxyCodeLine{72             \{}
+\DoxyCodeLine{73                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a5a160f931c8ba21c0b26527df626115f}{lstpessoa}}.Remove(pessoa))}
+\DoxyCodeLine{74                 \{}
+\DoxyCodeLine{75                     Console.WriteLine(pessoa.\mbox{\hyperlink{class_libraria_hospital_1_1_pessoa_a5186e2862ad1bd75b60f610ed9f0a631}{Nome}} + \textcolor{stringliteral}{" had been removed successfully."});}
+\DoxyCodeLine{76                 \}}
+\DoxyCodeLine{77                 \textcolor{keywordflow}{else}}
+\DoxyCodeLine{78                 \{}
+\DoxyCodeLine{79                     Console.WriteLine(\textcolor{stringliteral}{"Unable to remove "} + pessoa.\mbox{\hyperlink{class_libraria_hospital_1_1_pessoa_a5186e2862ad1bd75b60f610ed9f0a631}{Nome}});}
+\DoxyCodeLine{80                 \}}
+\DoxyCodeLine{81             \}}
+\DoxyCodeLine{82         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_pessoa_a2c94484c8c52a0a86604243466a99815}\label{class_data_files_1_1_lista_pessoa_a2c94484c8c52a0a86604243466a99815}} 
+\index{DataFiles.ListaPessoa@{DataFiles.ListaPessoa}!SaveBinFile@{SaveBinFile}}
+\index{SaveBinFile@{SaveBinFile}!DataFiles.ListaPessoa@{DataFiles.ListaPessoa}}
+\doxysubsubsection{\texorpdfstring{SaveBinFile()}{SaveBinFile()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Pessoa.\+Save\+Bin\+File (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para guardar a lista pessoa em ficheiro binario 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}filename\char`\"{}$>$} & Ficheiro para o qual guarda a lista pessoa \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{90         \{}
+\DoxyCodeLine{91             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{92             \{}
+\DoxyCodeLine{93                 Stream str = File.Open(filename, FileMode.Create, FileAccess.Write);}
+\DoxyCodeLine{94                 \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a96f42092a2056b5a085d3157df72e17b}{formatter}}.Serialize(str, \mbox{\hyperlink{class_data_files_1_1_lista_pessoa_a5a160f931c8ba21c0b26527df626115f}{lstpessoa}});}
+\DoxyCodeLine{95                 str.Flush(); \textcolor{comment}{// Limpar buffer}}
+\DoxyCodeLine{96                 str.Close(); \textcolor{comment}{// Fechar acesso a stream}}
+\DoxyCodeLine{97                 str.Dispose(); \textcolor{comment}{// Libertar rescursos usados pela stream}}
+\DoxyCodeLine{98             \}}
+\DoxyCodeLine{99             \textcolor{comment}{// Erros de excecao}}
+\DoxyCodeLine{100             \textcolor{keywordflow}{catch} (FileNotFoundException f)}
+\DoxyCodeLine{101             \{}
+\DoxyCodeLine{102                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} FileNotFoundException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{103             \}}
+\DoxyCodeLine{104             \textcolor{keywordflow}{catch} (SerializationException f)}
+\DoxyCodeLine{105             \{}
+\DoxyCodeLine{106                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} SerializationException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{107             \}}
+\DoxyCodeLine{108             \textcolor{keywordflow}{catch} (IOException f)}
+\DoxyCodeLine{109             \{}
+\DoxyCodeLine{110                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} IOException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{111             \}}
+\DoxyCodeLine{112             \textcolor{keywordflow}{catch} (Exception f)}
+\DoxyCodeLine{113             \{}
+\DoxyCodeLine{114                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{115             \}}
+\DoxyCodeLine{116             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{117         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_pessoa_a96f42092a2056b5a085d3157df72e17b}\label{class_data_files_1_1_lista_pessoa_a96f42092a2056b5a085d3157df72e17b}} 
+\index{DataFiles.ListaPessoa@{DataFiles.ListaPessoa}!formatter@{formatter}}
+\index{formatter@{formatter}!DataFiles.ListaPessoa@{DataFiles.ListaPessoa}}
+\doxysubsubsection{\texorpdfstring{formatter}{formatter}}
+{\footnotesize\ttfamily Binary\+Formatter Data\+Files.\+Lista\+Pessoa.\+formatter\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_data_files_1_1_lista_pessoa_a5a160f931c8ba21c0b26527df626115f}\label{class_data_files_1_1_lista_pessoa_a5a160f931c8ba21c0b26527df626115f}} 
+\index{DataFiles.ListaPessoa@{DataFiles.ListaPessoa}!lstpessoa@{lstpessoa}}
+\index{lstpessoa@{lstpessoa}!DataFiles.ListaPessoa@{DataFiles.ListaPessoa}}
+\doxysubsubsection{\texorpdfstring{lstpessoa}{lstpessoa}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}}$>$ Data\+Files.\+Lista\+Pessoa.\+lstpessoa = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Files/\mbox{\hyperlink{_lista_pessoa_8cs}{Lista\+Pessoa.\+cs}}\end{DoxyCompactItemize}

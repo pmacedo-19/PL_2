@@ -35,7 +35,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para adicionar um hospital a lista
         /// </summary>
-        /// <param name="hospital"> Recebe o Hospital a adicionar</param>
+        /// @param name="hospital"> Recebe o Hospital a adicionar</param>
         /// <returns></returns>
         public static bool Addhospital(Hospital hospital)
         {
@@ -54,7 +54,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para remover um hospital da lista
         /// </summary>
-        /// <param name="hospital"> Recebe o nome do Hospital a remover </param>
+        /// @param name="hospital"> Recebe o nome do Hospital a remover </param>
         public void Removehospital(Hospital hospital)
         {
             // Caso nao exista esse hospital
@@ -79,7 +79,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para guardar a lista num ficheiro binario
         /// </summary>
-        /// <param name="filename"> Ficheiro para o qual guarda a lista hospital </param>
+        /// @param name="filename"> Ficheiro para o qual guarda a lista hospital </param>
         /// <returns></returns>
         public static bool SaveBinFile(string filename)
         {
@@ -114,7 +114,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para carregar informacao da lista hospital de ficheiro binario
         /// </summary>
-        /// <param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
+        /// @param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
         /// <returns></returns>
         public static bool LoadBinFile(string filename)
         {
@@ -149,7 +149,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para procurar um hospital pelo nome
         /// </summary>
-        /// <param name="nome"> Nome do hospital a procurar </param>
+        /// @param name="nome"> Nome do hospital a procurar </param>
         /// <returns></returns>
         public static Hospital ProcurarHospitalNome(string nome)
         {

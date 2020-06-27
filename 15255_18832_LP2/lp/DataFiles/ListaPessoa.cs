@@ -40,7 +40,7 @@ namespace DataFiles
         /// <summary>
         /// Construtor de dados externos para adicionar um pessoa
         /// </summary>
-        /// <param name="pessoa"> recebe a estrutura pessoa que se pretende adicionar </param>
+        /// @param name="pessoa"> recebe a estrutura pessoa que se pretende adicionar </param>
         /// <returns></returns>
         public static bool AddPessoa(Pessoa pessoa)
         {
@@ -59,7 +59,7 @@ namespace DataFiles
         /// <summary>
         /// Metodo para remover uma pessoa da lista
         /// </summary>
-        /// <param name="pessoa"> Recebe a pessoa que se pretende remover </param>
+        /// @param name="pessoa"> Recebe a pessoa que se pretende remover </param>
         public void RemovePessoa(Pessoa pessoa)
         {
             // Caso nao exista essa pessoa
@@ -84,7 +84,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para guardar a lista pessoa em ficheiro binario
         /// </summary>
-        /// <param name="filename"> Ficheiro para o qual guarda a lista pessoa </param>
+        /// @param name="filename"> Ficheiro para o qual guarda a lista pessoa </param>
         /// <returns></returns>
         public static bool SaveBinFile(string filename)
         {
@@ -119,7 +119,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para carregar informacao da lista pessoa de ficheiro binario
         /// </summary>
-        /// <param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
+        /// @param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
         /// <returns></returns>
         public static bool LoadBinFile(string filename)
         {
@@ -154,7 +154,7 @@ namespace DataFiles
         /// <summary>
         /// Funco para procurar uma pessoa na lista pelo nome
         /// </summary>
-        /// <param name="nome"> Nome da pessoa que se quer procurar </param>
+        /// @param name="nome"> Nome da pessoa que se quer procurar </param>
         /// <returns></returns>
         public static Pessoa ProcurarPessoaNome(string nome)
         {

@@ -1,15 +1,20 @@
-﻿/*
+﻿/*! \mainpage Linguagem de programação II
  * 
- * Autores do projeto: Pedro Macedo || Ricardo Silva
- * Disciplina: Linguagem de programação II
- * Projeto I Fase 4 (Melhoria)
- * Objetivo do projeto:  Ferramenta de gestão de:
- *                              - Doentes e não doentes;
- *                              - Infeções;
- *                              - Hospitais;
+ * \section intro_sec Projeto I Fase 4 (Melhoria)
+ *
+ * Ferramenta de gestão de: 
+ *                          - Doentes e não doentes;
+ *                          - Infeções;
+ *                          - Hospitais;
+ *
  * 
+ * \subsection autores Autores:
+ * 
+ *      Pedro Macedo - a15255
+ *      Ricardo Silva - a18832
+ *
+ *
  */
-
 
 using LibrariaHospital;
 using RegrasClass;

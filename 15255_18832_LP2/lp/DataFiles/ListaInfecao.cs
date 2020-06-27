@@ -34,7 +34,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para adicionar uma infecao a lista
         /// </summary>
-        /// <param name="infecao"> Recebe a infecao a adicionar </param>
+        /// @param name="infecao"> Recebe a infecao a adicionar </param>
         /// <returns></returns>
         public static bool AddInfecao(Infecao infecao)
         {
@@ -53,7 +53,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para remover uma infecao da lista
         /// </summary>
-        /// <param name="infecao"> Recebe o nome da Infecao a remover </param>
+        /// @param name="infecao"> Recebe o nome da Infecao a remover </param>
         public void RemoveInfecao(Infecao infecao)
         {
             // Caso nao exista essa infecao
@@ -78,7 +78,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para guardar a lista num ficheiro binario
         /// </summary>
-        /// <param name="filename"> Ficheiro para o qual guarda a lista infecao </param>
+        /// @param name="filename"> Ficheiro para o qual guarda a lista infecao </param>
         /// <returns></returns>
         public static bool SaveBinFile(string filename)
         {
@@ -113,7 +113,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para carregar informacao da lista infecao de ficheiro binario
         /// </summary>
-        /// <param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
+        /// @param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
         /// <returns></returns>
         public static bool LoadBinFile(string filename)
         {
@@ -148,7 +148,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para procurar uma infecao pelo nome
         /// </summary>
-        /// <param name="nome"> Nome da infecao a procurar </param>
+        /// @param name="nome"> Nome da infecao a procurar </param>
         /// <returns></returns>
         public static Infecao ProcurarInfecaoNome(string nome)
         {

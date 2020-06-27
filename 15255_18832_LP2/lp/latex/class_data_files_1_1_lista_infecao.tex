@@ -1,0 +1,302 @@
+\hypertarget{class_data_files_1_1_lista_infecao}{}\doxysection{Data\+Files.\+Lista\+Infecao Class Reference}
+\label{class_data_files_1_1_lista_infecao}\index{DataFiles.ListaInfecao@{DataFiles.ListaInfecao}}
+
+
+Class para gestao de listas de Infecoes  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_data_files_1_1_lista_infecao_aaa5e901b41e46830007bfdfeb47d11f4}{Remove\+Infecao}} (\mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}} infecao)
+\begin{DoxyCompactList}\small\item\em Funcao para remover uma infecao da lista \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a88cc6cb3ab8ddb7bff3400364f056d45}{Add\+Infecao}} (\mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}} infecao)
+\begin{DoxyCompactList}\small\item\em Funcao para adicionar uma infecao a lista \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a6431a21b156c41fd77e895e8fa1afbe7}{Save\+Bin\+File}} (string filename)
+\begin{DoxyCompactList}\small\item\em Funcao para guardar a lista num ficheiro binario \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a7d7d162c98d41b4fecab43e06f755eaf}{Load\+Bin\+File}} (string filename)
+\begin{DoxyCompactList}\small\item\em Funcao para carregar informacao da lista infecao de ficheiro binario \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}} \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a34b6264b3dd03f5f78a745c6a575cbdb}{Procurar\+Infecao\+Nome}} (string nome)
+\begin{DoxyCompactList}\small\item\em Funcao para procurar uma infecao pelo nome \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a576a1f9f2a2fe8d686319e964c715e8f}{Lista\+Infecao}} ()
+\begin{DoxyCompactList}\small\item\em Criacao de lista para guardar guardar um objeto infecao \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}} $>$ \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a3570124f2b56941c3297565ecbf2698f}{lstinfecao}} = null
+\item 
+static Binary\+Formatter \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a9e63a317417430a60d532a4c380065c3}{formatter}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class para gestao de listas de Infecoes 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_infecao_a576a1f9f2a2fe8d686319e964c715e8f}\label{class_data_files_1_1_lista_infecao_a576a1f9f2a2fe8d686319e964c715e8f}} 
+\index{DataFiles.ListaInfecao@{DataFiles.ListaInfecao}!ListaInfecao@{ListaInfecao}}
+\index{ListaInfecao@{ListaInfecao}!DataFiles.ListaInfecao@{DataFiles.ListaInfecao}}
+\doxysubsubsection{\texorpdfstring{ListaInfecao()}{ListaInfecao()}}
+{\footnotesize\ttfamily static Data\+Files.\+Lista\+Infecao.\+Lista\+Infecao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Criacao de lista para guardar guardar um objeto infecao 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{29         \{}
+\DoxyCodeLine{30             \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a3570124f2b56941c3297565ecbf2698f}{lstinfecao}} = \textcolor{keyword}{new} List<Infecao>();}
+\DoxyCodeLine{31             \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a9e63a317417430a60d532a4c380065c3}{formatter}} = \textcolor{keyword}{new} BinaryFormatter();}
+\DoxyCodeLine{32         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_infecao_a88cc6cb3ab8ddb7bff3400364f056d45}\label{class_data_files_1_1_lista_infecao_a88cc6cb3ab8ddb7bff3400364f056d45}} 
+\index{DataFiles.ListaInfecao@{DataFiles.ListaInfecao}!AddInfecao@{AddInfecao}}
+\index{AddInfecao@{AddInfecao}!DataFiles.ListaInfecao@{DataFiles.ListaInfecao}}
+\doxysubsubsection{\texorpdfstring{AddInfecao()}{AddInfecao()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Infecao.\+Add\+Infecao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}}}]{infecao }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para adicionar uma infecao a lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}infecao\char`\"{}$>$} & Recebe a infecao a adicionar \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{40         \{}
+\DoxyCodeLine{41             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{42             \{}
+\DoxyCodeLine{43                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_data_files_1_1_lista_infecao_a3570124f2b56941c3297565ecbf2698f}{lstinfecao}}.Contains(infecao)) \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{44                 \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a3570124f2b56941c3297565ecbf2698f}{lstinfecao}}.Add(infecao);}
+\DoxyCodeLine{45             \}}
+\DoxyCodeLine{46             \textcolor{keywordflow}{catch} (Exception e)}
+\DoxyCodeLine{47             \{}
+\DoxyCodeLine{48                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{49             \}}
+\DoxyCodeLine{50             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{51         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_infecao_a7d7d162c98d41b4fecab43e06f755eaf}\label{class_data_files_1_1_lista_infecao_a7d7d162c98d41b4fecab43e06f755eaf}} 
+\index{DataFiles.ListaInfecao@{DataFiles.ListaInfecao}!LoadBinFile@{LoadBinFile}}
+\index{LoadBinFile@{LoadBinFile}!DataFiles.ListaInfecao@{DataFiles.ListaInfecao}}
+\doxysubsubsection{\texorpdfstring{LoadBinFile()}{LoadBinFile()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Infecao.\+Load\+Bin\+File (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para carregar informacao da lista infecao de ficheiro binario 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}filename\char`\"{}$>$} & Ficheiro binario do qual carrega as informacoes da lista \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{119         \{}
+\DoxyCodeLine{120             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{121             \{}
+\DoxyCodeLine{122                 Stream str = File.Open(filename, FileMode.Open, FileAccess.Read);}
+\DoxyCodeLine{123                 \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a3570124f2b56941c3297565ecbf2698f}{lstinfecao}} = (List<Infecao>)\mbox{\hyperlink{class_data_files_1_1_lista_infecao_a9e63a317417430a60d532a4c380065c3}{formatter}}.Deserialize(str);}
+\DoxyCodeLine{124                 str.Flush(); \textcolor{comment}{// Limpar buffer}}
+\DoxyCodeLine{125                 str.Close(); \textcolor{comment}{// Fechar acesso a stream}}
+\DoxyCodeLine{126                 str.Dispose(); \textcolor{comment}{// Libertar rescursos usados pela stream}}
+\DoxyCodeLine{127             \}}
+\DoxyCodeLine{128             \textcolor{comment}{// Erros de excecao}}
+\DoxyCodeLine{129             \textcolor{keywordflow}{catch} (FileNotFoundException f)}
+\DoxyCodeLine{130             \{}
+\DoxyCodeLine{131                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} FileNotFoundException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{132             \}}
+\DoxyCodeLine{133             \textcolor{keywordflow}{catch} (SerializationException f)}
+\DoxyCodeLine{134             \{}
+\DoxyCodeLine{135                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} SerializationException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{136             \}}
+\DoxyCodeLine{137             \textcolor{keywordflow}{catch} (IOException f)}
+\DoxyCodeLine{138             \{}
+\DoxyCodeLine{139                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} IOException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{140             \}}
+\DoxyCodeLine{141             \textcolor{keywordflow}{catch} (Exception f)}
+\DoxyCodeLine{142             \{}
+\DoxyCodeLine{143                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{144             \}}
+\DoxyCodeLine{145             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{146         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_infecao_a34b6264b3dd03f5f78a745c6a575cbdb}\label{class_data_files_1_1_lista_infecao_a34b6264b3dd03f5f78a745c6a575cbdb}} 
+\index{DataFiles.ListaInfecao@{DataFiles.ListaInfecao}!ProcurarInfecaoNome@{ProcurarInfecaoNome}}
+\index{ProcurarInfecaoNome@{ProcurarInfecaoNome}!DataFiles.ListaInfecao@{DataFiles.ListaInfecao}}
+\doxysubsubsection{\texorpdfstring{ProcurarInfecaoNome()}{ProcurarInfecaoNome()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}} Data\+Files.\+Lista\+Infecao.\+Procurar\+Infecao\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para procurar uma infecao pelo nome 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}nome\char`\"{}$>$} & Nome da infecao a procurar \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{154         \{}
+\DoxyCodeLine{155             \mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}} auxI = \textcolor{keyword}{null};}
+\DoxyCodeLine{156             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{157             \{}
+\DoxyCodeLine{158                 auxI = \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a3570124f2b56941c3297565ecbf2698f}{lstinfecao}}.Find(aux => aux.Nome == nome);}
+\DoxyCodeLine{159             \}}
+\DoxyCodeLine{160             \textcolor{keywordflow}{catch} (ArgumentNullException e)}
+\DoxyCodeLine{161             \{}
+\DoxyCodeLine{162                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentNullException(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{163             \}}
+\DoxyCodeLine{164             \textcolor{keywordflow}{catch} (Exception e)}
+\DoxyCodeLine{165             \{}
+\DoxyCodeLine{166                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{167             \}}
+\DoxyCodeLine{168             \textcolor{keywordflow}{return} auxI;}
+\DoxyCodeLine{169         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_infecao_aaa5e901b41e46830007bfdfeb47d11f4}\label{class_data_files_1_1_lista_infecao_aaa5e901b41e46830007bfdfeb47d11f4}} 
+\index{DataFiles.ListaInfecao@{DataFiles.ListaInfecao}!RemoveInfecao@{RemoveInfecao}}
+\index{RemoveInfecao@{RemoveInfecao}!DataFiles.ListaInfecao@{DataFiles.ListaInfecao}}
+\doxysubsubsection{\texorpdfstring{RemoveInfecao()}{RemoveInfecao()}}
+{\footnotesize\ttfamily void Data\+Files.\+Lista\+Infecao.\+Remove\+Infecao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}}}]{infecao }\end{DoxyParamCaption})}
+
+
+
+Funcao para remover uma infecao da lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}infecao\char`\"{}$>$} & Recebe o nome da Infecao a remover \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{58         \{}
+\DoxyCodeLine{59             \textcolor{comment}{// Caso nao exista essa infecao}}
+\DoxyCodeLine{60             \textcolor{keywordflow}{if} (!\mbox{\hyperlink{class_data_files_1_1_lista_infecao_a3570124f2b56941c3297565ecbf2698f}{lstinfecao}}.Contains(infecao))}
+\DoxyCodeLine{61             \{}
+\DoxyCodeLine{62                 Console.WriteLine(infecao.\mbox{\hyperlink{class_libraria_hospital_1_1_infecao_ac6d2b0a953c4356277003c787d5d63a6}{Nome}} + \textcolor{stringliteral}{" had not been added before."});}
+\DoxyCodeLine{63             \}}
+\DoxyCodeLine{64             \textcolor{comment}{// Caso exista a infecao}}
+\DoxyCodeLine{65             \textcolor{keywordflow}{else}}
+\DoxyCodeLine{66             \{}
+\DoxyCodeLine{67                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_data_files_1_1_lista_infecao_a3570124f2b56941c3297565ecbf2698f}{lstinfecao}}.Remove(infecao))}
+\DoxyCodeLine{68                 \{}
+\DoxyCodeLine{69                     Console.WriteLine(infecao.\mbox{\hyperlink{class_libraria_hospital_1_1_infecao_ac6d2b0a953c4356277003c787d5d63a6}{Nome}} + \textcolor{stringliteral}{" had been removed successfully."});}
+\DoxyCodeLine{70                 \}}
+\DoxyCodeLine{71                 \textcolor{keywordflow}{else}}
+\DoxyCodeLine{72                 \{}
+\DoxyCodeLine{73                     Console.WriteLine(\textcolor{stringliteral}{"Unable to remove "} + infecao.\mbox{\hyperlink{class_libraria_hospital_1_1_infecao_ac6d2b0a953c4356277003c787d5d63a6}{Nome}});}
+\DoxyCodeLine{74                 \} }
+\DoxyCodeLine{75             \} }
+\DoxyCodeLine{76         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_infecao_a6431a21b156c41fd77e895e8fa1afbe7}\label{class_data_files_1_1_lista_infecao_a6431a21b156c41fd77e895e8fa1afbe7}} 
+\index{DataFiles.ListaInfecao@{DataFiles.ListaInfecao}!SaveBinFile@{SaveBinFile}}
+\index{SaveBinFile@{SaveBinFile}!DataFiles.ListaInfecao@{DataFiles.ListaInfecao}}
+\doxysubsubsection{\texorpdfstring{SaveBinFile()}{SaveBinFile()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Infecao.\+Save\+Bin\+File (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para guardar a lista num ficheiro binario 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}filename\char`\"{}$>$} & Ficheiro para o qual guarda a lista infecao \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{84         \{}
+\DoxyCodeLine{85             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{86             \{}
+\DoxyCodeLine{87                 Stream str = File.Open(filename, FileMode.Create, FileAccess.Write);}
+\DoxyCodeLine{88                 \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a9e63a317417430a60d532a4c380065c3}{formatter}}.Serialize(str, \mbox{\hyperlink{class_data_files_1_1_lista_infecao_a3570124f2b56941c3297565ecbf2698f}{lstinfecao}});}
+\DoxyCodeLine{89                 str.Flush(); \textcolor{comment}{// Limpar buffer}}
+\DoxyCodeLine{90                 str.Close(); \textcolor{comment}{// Fechar acesso a stream}}
+\DoxyCodeLine{91                 str.Dispose(); \textcolor{comment}{// Libertar rescursos usados pela stream}}
+\DoxyCodeLine{92             \}}
+\DoxyCodeLine{93             \textcolor{comment}{// Erros de excecao}}
+\DoxyCodeLine{94             \textcolor{keywordflow}{catch} (FileNotFoundException f)}
+\DoxyCodeLine{95             \{}
+\DoxyCodeLine{96                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} FileNotFoundException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{97             \}}
+\DoxyCodeLine{98             \textcolor{keywordflow}{catch} (SerializationException f)}
+\DoxyCodeLine{99             \{}
+\DoxyCodeLine{100                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} SerializationException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{101             \}}
+\DoxyCodeLine{102             \textcolor{keywordflow}{catch} (IOException f)}
+\DoxyCodeLine{103             \{}
+\DoxyCodeLine{104                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} IOException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{105             \}}
+\DoxyCodeLine{106             \textcolor{keywordflow}{catch} (Exception f)}
+\DoxyCodeLine{107             \{}
+\DoxyCodeLine{108                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{109             \}}
+\DoxyCodeLine{110             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{111         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_infecao_a9e63a317417430a60d532a4c380065c3}\label{class_data_files_1_1_lista_infecao_a9e63a317417430a60d532a4c380065c3}} 
+\index{DataFiles.ListaInfecao@{DataFiles.ListaInfecao}!formatter@{formatter}}
+\index{formatter@{formatter}!DataFiles.ListaInfecao@{DataFiles.ListaInfecao}}
+\doxysubsubsection{\texorpdfstring{formatter}{formatter}}
+{\footnotesize\ttfamily Binary\+Formatter Data\+Files.\+Lista\+Infecao.\+formatter\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_data_files_1_1_lista_infecao_a3570124f2b56941c3297565ecbf2698f}\label{class_data_files_1_1_lista_infecao_a3570124f2b56941c3297565ecbf2698f}} 
+\index{DataFiles.ListaInfecao@{DataFiles.ListaInfecao}!lstinfecao@{lstinfecao}}
+\index{lstinfecao@{lstinfecao}!DataFiles.ListaInfecao@{DataFiles.ListaInfecao}}
+\doxysubsubsection{\texorpdfstring{lstinfecao}{lstinfecao}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}}$>$ Data\+Files.\+Lista\+Infecao.\+lstinfecao = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Files/\mbox{\hyperlink{_lista_infecao_8cs}{Lista\+Infecao.\+cs}}\end{DoxyCompactItemize}

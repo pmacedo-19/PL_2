@@ -43,13 +43,13 @@ namespace LibrariaHospital
         /// <summary>
         /// Construtor da classe Doentes
         /// </summary>
-        /// <param "inf" - Ficha da infecao </param>
-        /// <param "idade" - Idade do doente</param>
-        /// <param "nome" - Nome do doente</param>
-        /// <param "regiao" - Região do doente</param>
-        /// <param "dataNasc" - Data de nascimento do doente</param>
-        /// <param "sexo" - Sexo do doente</param>
-        /// <param "profissao" - Profissao do doente</param>
+        /// @param "inf" - Ficha da infecao </param>
+        /// @param "idade" - Idade do doente</param>
+        /// @param "nome" - Nome do doente</param>
+        /// @param "regiao" - Região do doente</param>
+        /// @param "dataNasc" - Data de nascimento do doente</param>
+        /// @param "sexo" - Sexo do doente</param>
+        /// @param "profissao" - Profissao do doente</param>
         public Doentes( Infecao inf, int idade, string nome, int regiao, DateTime dataNasc, int sexo, int profissao) 
                         : base (idade, nome, dataNasc, sexo, profissao)
         {

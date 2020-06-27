@@ -1,0 +1,302 @@
+\hypertarget{class_data_files_1_1_lista_doentes}{}\doxysection{Data\+Files.\+Lista\+Doentes Class Reference}
+\label{class_data_files_1_1_lista_doentes}\index{DataFiles.ListaDoentes@{DataFiles.ListaDoentes}}
+
+
+Class para gestao de listas de doentes  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a192e58f55d213b4c14d8bc33908ef21c}{Remove\+Doente}} (\mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}} doente)
+\begin{DoxyCompactList}\small\item\em Funcao para remover um doente da lista \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a5e0956af34024486d77f0b111694d237}{Add\+Doente}} (\mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}} doente)
+\begin{DoxyCompactList}\small\item\em Funcao para adicionar um doente a lista \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a87c47e6551792b995eb3807d19618cdd}{Save\+Bin\+File}} (string filename)
+\begin{DoxyCompactList}\small\item\em Funcao para guardar a lista num ficheiro binario \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a3790f53f8e0d8e09abdffd4998c95c82}{Load\+Bin\+File}} (string filename)
+\begin{DoxyCompactList}\small\item\em Funcao para carregar informacao da lista pessoa de ficheiro binario \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}} \mbox{\hyperlink{class_data_files_1_1_lista_doentes_aa931312ae591a53cde77273567252bdf}{Procurar\+Doente\+Nome}} (string nome)
+\begin{DoxyCompactList}\small\item\em Funcao para procurar um doente pelo nome \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_data_files_1_1_lista_doentes_aba7090b666d9d06f3963498e466cf1ba}{Lista\+Doentes}} ()
+\begin{DoxyCompactList}\small\item\em Criacao de lista pessoa para guardar o objeto doente \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}} $>$ \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a13d34815703f0b05c33a943756af6372}{lstdoente}} = null
+\item 
+static Binary\+Formatter \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a8164f4e972b505346e0a2241fe72a7fa}{formatter}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class para gestao de listas de doentes 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_doentes_aba7090b666d9d06f3963498e466cf1ba}\label{class_data_files_1_1_lista_doentes_aba7090b666d9d06f3963498e466cf1ba}} 
+\index{DataFiles.ListaDoentes@{DataFiles.ListaDoentes}!ListaDoentes@{ListaDoentes}}
+\index{ListaDoentes@{ListaDoentes}!DataFiles.ListaDoentes@{DataFiles.ListaDoentes}}
+\doxysubsubsection{\texorpdfstring{ListaDoentes()}{ListaDoentes()}}
+{\footnotesize\ttfamily static Data\+Files.\+Lista\+Doentes.\+Lista\+Doentes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Criacao de lista pessoa para guardar o objeto doente 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{34         \{}
+\DoxyCodeLine{35             \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a13d34815703f0b05c33a943756af6372}{lstdoente}} = \textcolor{keyword}{new} List<Doentes>();}
+\DoxyCodeLine{36             \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a8164f4e972b505346e0a2241fe72a7fa}{formatter}} = \textcolor{keyword}{new} BinaryFormatter();}
+\DoxyCodeLine{37         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_doentes_a5e0956af34024486d77f0b111694d237}\label{class_data_files_1_1_lista_doentes_a5e0956af34024486d77f0b111694d237}} 
+\index{DataFiles.ListaDoentes@{DataFiles.ListaDoentes}!AddDoente@{AddDoente}}
+\index{AddDoente@{AddDoente}!DataFiles.ListaDoentes@{DataFiles.ListaDoentes}}
+\doxysubsubsection{\texorpdfstring{AddDoente()}{AddDoente()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Doentes.\+Add\+Doente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}}}]{doente }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para adicionar um doente a lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}doente\char`\"{}$>$} & Recebe o doente a adicionar \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{45         \{}
+\DoxyCodeLine{46             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{47             \{}
+\DoxyCodeLine{48                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_data_files_1_1_lista_doentes_a13d34815703f0b05c33a943756af6372}{lstdoente}}.Contains(doente)) \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{49                 \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a13d34815703f0b05c33a943756af6372}{lstdoente}}.Add(doente);}
+\DoxyCodeLine{50             \}}
+\DoxyCodeLine{51             \textcolor{keywordflow}{catch} (Exception e)}
+\DoxyCodeLine{52             \{}
+\DoxyCodeLine{53                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{54             \}}
+\DoxyCodeLine{55             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{56         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_doentes_a3790f53f8e0d8e09abdffd4998c95c82}\label{class_data_files_1_1_lista_doentes_a3790f53f8e0d8e09abdffd4998c95c82}} 
+\index{DataFiles.ListaDoentes@{DataFiles.ListaDoentes}!LoadBinFile@{LoadBinFile}}
+\index{LoadBinFile@{LoadBinFile}!DataFiles.ListaDoentes@{DataFiles.ListaDoentes}}
+\doxysubsubsection{\texorpdfstring{LoadBinFile()}{LoadBinFile()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Doentes.\+Load\+Bin\+File (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para carregar informacao da lista pessoa de ficheiro binario 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}filename\char`\"{}$>$} & Ficheiro binario do qual carrega as informacoes da lista \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{124         \{}
+\DoxyCodeLine{125             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{126             \{}
+\DoxyCodeLine{127                 Stream str = File.Open(filename, FileMode.Open, FileAccess.Read);}
+\DoxyCodeLine{128                 \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a13d34815703f0b05c33a943756af6372}{lstdoente}} = (List<Doentes>)\mbox{\hyperlink{class_data_files_1_1_lista_doentes_a8164f4e972b505346e0a2241fe72a7fa}{formatter}}.Deserialize(str);}
+\DoxyCodeLine{129                 str.Flush(); \textcolor{comment}{// Limpar buffer}}
+\DoxyCodeLine{130                 str.Close(); \textcolor{comment}{// Fechar acesso a stream}}
+\DoxyCodeLine{131                 str.Dispose(); \textcolor{comment}{// Libertar rescursos usados pela stream}}
+\DoxyCodeLine{132             \}}
+\DoxyCodeLine{133             \textcolor{comment}{// Erros de excecao}}
+\DoxyCodeLine{134             \textcolor{keywordflow}{catch} (FileNotFoundException f)}
+\DoxyCodeLine{135             \{}
+\DoxyCodeLine{136                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} FileNotFoundException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{137             \}}
+\DoxyCodeLine{138             \textcolor{keywordflow}{catch} (SerializationException f)}
+\DoxyCodeLine{139             \{}
+\DoxyCodeLine{140                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} SerializationException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{141             \}}
+\DoxyCodeLine{142             \textcolor{keywordflow}{catch} (IOException f)}
+\DoxyCodeLine{143             \{}
+\DoxyCodeLine{144                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} IOException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{145             \}}
+\DoxyCodeLine{146             \textcolor{keywordflow}{catch} (Exception f)}
+\DoxyCodeLine{147             \{}
+\DoxyCodeLine{148                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{149             \}}
+\DoxyCodeLine{150             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{151         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_doentes_aa931312ae591a53cde77273567252bdf}\label{class_data_files_1_1_lista_doentes_aa931312ae591a53cde77273567252bdf}} 
+\index{DataFiles.ListaDoentes@{DataFiles.ListaDoentes}!ProcurarDoenteNome@{ProcurarDoenteNome}}
+\index{ProcurarDoenteNome@{ProcurarDoenteNome}!DataFiles.ListaDoentes@{DataFiles.ListaDoentes}}
+\doxysubsubsection{\texorpdfstring{ProcurarDoenteNome()}{ProcurarDoenteNome()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}} Data\+Files.\+Lista\+Doentes.\+Procurar\+Doente\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para procurar um doente pelo nome 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}nome\char`\"{}$>$} & Nome do doente a procurar \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{159         \{}
+\DoxyCodeLine{160             \mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}} auxD = \textcolor{keyword}{null};}
+\DoxyCodeLine{161             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{162             \{}
+\DoxyCodeLine{163                 auxD = \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a13d34815703f0b05c33a943756af6372}{lstdoente}}.Find(aux => aux.Nome == nome);}
+\DoxyCodeLine{164             \}}
+\DoxyCodeLine{165             \textcolor{keywordflow}{catch} (ArgumentNullException e)}
+\DoxyCodeLine{166             \{}
+\DoxyCodeLine{167                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentNullException(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{168             \}}
+\DoxyCodeLine{169             \textcolor{keywordflow}{catch} (Exception e)}
+\DoxyCodeLine{170             \{}
+\DoxyCodeLine{171                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{172             \}}
+\DoxyCodeLine{173             \textcolor{keywordflow}{return} auxD;}
+\DoxyCodeLine{174         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_doentes_a192e58f55d213b4c14d8bc33908ef21c}\label{class_data_files_1_1_lista_doentes_a192e58f55d213b4c14d8bc33908ef21c}} 
+\index{DataFiles.ListaDoentes@{DataFiles.ListaDoentes}!RemoveDoente@{RemoveDoente}}
+\index{RemoveDoente@{RemoveDoente}!DataFiles.ListaDoentes@{DataFiles.ListaDoentes}}
+\doxysubsubsection{\texorpdfstring{RemoveDoente()}{RemoveDoente()}}
+{\footnotesize\ttfamily void Data\+Files.\+Lista\+Doentes.\+Remove\+Doente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}}}]{doente }\end{DoxyParamCaption})}
+
+
+
+Funcao para remover um doente da lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}doente\char`\"{}$>$} & Recebe o nome do doente a remover \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{63         \{}
+\DoxyCodeLine{64             \textcolor{comment}{// Caso nao exista esse doente}}
+\DoxyCodeLine{65             \textcolor{keywordflow}{if} (!\mbox{\hyperlink{class_data_files_1_1_lista_doentes_a13d34815703f0b05c33a943756af6372}{lstdoente}}.Contains(doente))}
+\DoxyCodeLine{66             \{}
+\DoxyCodeLine{67                 Console.WriteLine(doente.\mbox{\hyperlink{class_libraria_hospital_1_1_pessoa_a5186e2862ad1bd75b60f610ed9f0a631}{Nome}} + \textcolor{stringliteral}{" had not been added before."});}
+\DoxyCodeLine{68             \}}
+\DoxyCodeLine{69             \textcolor{comment}{// Caso exista o doente}}
+\DoxyCodeLine{70             \textcolor{keywordflow}{else}}
+\DoxyCodeLine{71             \{}
+\DoxyCodeLine{72                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_data_files_1_1_lista_doentes_a13d34815703f0b05c33a943756af6372}{lstdoente}}.Remove(doente))}
+\DoxyCodeLine{73                 \{}
+\DoxyCodeLine{74                     Console.WriteLine(doente.\mbox{\hyperlink{class_libraria_hospital_1_1_pessoa_a5186e2862ad1bd75b60f610ed9f0a631}{Nome}} + \textcolor{stringliteral}{" had been removed successfully."});}
+\DoxyCodeLine{75                 \}}
+\DoxyCodeLine{76                 \textcolor{keywordflow}{else}}
+\DoxyCodeLine{77                 \{}
+\DoxyCodeLine{78                     Console.WriteLine(\textcolor{stringliteral}{"Unable to remove "} + doente.\mbox{\hyperlink{class_libraria_hospital_1_1_pessoa_a5186e2862ad1bd75b60f610ed9f0a631}{Nome}});}
+\DoxyCodeLine{79                 \}}
+\DoxyCodeLine{80             \}}
+\DoxyCodeLine{81         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_doentes_a87c47e6551792b995eb3807d19618cdd}\label{class_data_files_1_1_lista_doentes_a87c47e6551792b995eb3807d19618cdd}} 
+\index{DataFiles.ListaDoentes@{DataFiles.ListaDoentes}!SaveBinFile@{SaveBinFile}}
+\index{SaveBinFile@{SaveBinFile}!DataFiles.ListaDoentes@{DataFiles.ListaDoentes}}
+\doxysubsubsection{\texorpdfstring{SaveBinFile()}{SaveBinFile()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Doentes.\+Save\+Bin\+File (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para guardar a lista num ficheiro binario 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}filename\char`\"{}$>$} & Ficheiro para o qual guarda a lista doente \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{89         \{}
+\DoxyCodeLine{90             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{91             \{}
+\DoxyCodeLine{92                 Stream str = File.Open(filename, FileMode.Create, FileAccess.Write);}
+\DoxyCodeLine{93                 \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a8164f4e972b505346e0a2241fe72a7fa}{formatter}}.Serialize(str, \mbox{\hyperlink{class_data_files_1_1_lista_doentes_a13d34815703f0b05c33a943756af6372}{lstdoente}});}
+\DoxyCodeLine{94                 str.Flush(); \textcolor{comment}{// Limpar buffer}}
+\DoxyCodeLine{95                 str.Close(); \textcolor{comment}{// Fechar acesso a stream}}
+\DoxyCodeLine{96                 str.Dispose(); \textcolor{comment}{// Libertar rescursos usados pela stream}}
+\DoxyCodeLine{97             \}}
+\DoxyCodeLine{98             \textcolor{comment}{// Erros de excecao}}
+\DoxyCodeLine{99             \textcolor{keywordflow}{catch} (FileNotFoundException f)}
+\DoxyCodeLine{100             \{}
+\DoxyCodeLine{101                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} FileNotFoundException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{102             \}}
+\DoxyCodeLine{103             \textcolor{keywordflow}{catch} (SerializationException f)}
+\DoxyCodeLine{104             \{}
+\DoxyCodeLine{105                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} SerializationException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{106             \}}
+\DoxyCodeLine{107             \textcolor{keywordflow}{catch} (IOException f)}
+\DoxyCodeLine{108             \{}
+\DoxyCodeLine{109                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} IOException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{110             \}}
+\DoxyCodeLine{111             \textcolor{keywordflow}{catch} (Exception f)}
+\DoxyCodeLine{112             \{}
+\DoxyCodeLine{113                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{114             \}}
+\DoxyCodeLine{115             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{116         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_doentes_a8164f4e972b505346e0a2241fe72a7fa}\label{class_data_files_1_1_lista_doentes_a8164f4e972b505346e0a2241fe72a7fa}} 
+\index{DataFiles.ListaDoentes@{DataFiles.ListaDoentes}!formatter@{formatter}}
+\index{formatter@{formatter}!DataFiles.ListaDoentes@{DataFiles.ListaDoentes}}
+\doxysubsubsection{\texorpdfstring{formatter}{formatter}}
+{\footnotesize\ttfamily Binary\+Formatter Data\+Files.\+Lista\+Doentes.\+formatter\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_data_files_1_1_lista_doentes_a13d34815703f0b05c33a943756af6372}\label{class_data_files_1_1_lista_doentes_a13d34815703f0b05c33a943756af6372}} 
+\index{DataFiles.ListaDoentes@{DataFiles.ListaDoentes}!lstdoente@{lstdoente}}
+\index{lstdoente@{lstdoente}!DataFiles.ListaDoentes@{DataFiles.ListaDoentes}}
+\doxysubsubsection{\texorpdfstring{lstdoente}{lstdoente}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}}$>$ Data\+Files.\+Lista\+Doentes.\+lstdoente = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Files/\mbox{\hyperlink{_lista_doente_8cs}{Lista\+Doente.\+cs}}\end{DoxyCompactItemize}

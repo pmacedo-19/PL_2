@@ -1,0 +1,302 @@
+\hypertarget{class_data_files_1_1_lista_hospital}{}\doxysection{Data\+Files.\+Lista\+Hospital Class Reference}
+\label{class_data_files_1_1_lista_hospital}\index{DataFiles.ListaHospital@{DataFiles.ListaHospital}}
+
+
+Class para gestao de listas de hospitais  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_data_files_1_1_lista_hospital_a49f7c2cff6d38de9efbb205dd2659e82}{Removehospital}} (\mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}} hospital)
+\begin{DoxyCompactList}\small\item\em Funcao para remover um hospital da lista \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_hospital_ad205b126066528186151589ff6a4024a}{Addhospital}} (\mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}} hospital)
+\begin{DoxyCompactList}\small\item\em Funcao para adicionar um hospital a lista \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_hospital_a10db454f6f2f9aa6dc33c38c609a3ba3}{Save\+Bin\+File}} (string filename)
+\begin{DoxyCompactList}\small\item\em Funcao para guardar a lista num ficheiro binario \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_data_files_1_1_lista_hospital_a1845c31a22799212c2aa050dae1d3a92}{Load\+Bin\+File}} (string filename)
+\begin{DoxyCompactList}\small\item\em Funcao para carregar informacao da lista hospital de ficheiro binario \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}} \mbox{\hyperlink{class_data_files_1_1_lista_hospital_a87d28148deeec3ca28af242dabc148cd}{Procurar\+Hospital\+Nome}} (string nome)
+\begin{DoxyCompactList}\small\item\em Funcao para procurar um hospital pelo nome \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_data_files_1_1_lista_hospital_a742b758859d2021fc560e45e627196a7}{Lista\+Hospital}} ()
+\begin{DoxyCompactList}\small\item\em Criacao de lista para guardar o objeto hospital \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}} $>$ \mbox{\hyperlink{class_data_files_1_1_lista_hospital_a8d62133d9e45508baeaf603269c61676}{lsthospital}} = null
+\item 
+static Binary\+Formatter \mbox{\hyperlink{class_data_files_1_1_lista_hospital_aa6736923763d3859c41c39f75438c916}{formatter}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class para gestao de listas de hospitais 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_hospital_a742b758859d2021fc560e45e627196a7}\label{class_data_files_1_1_lista_hospital_a742b758859d2021fc560e45e627196a7}} 
+\index{DataFiles.ListaHospital@{DataFiles.ListaHospital}!ListaHospital@{ListaHospital}}
+\index{ListaHospital@{ListaHospital}!DataFiles.ListaHospital@{DataFiles.ListaHospital}}
+\doxysubsubsection{\texorpdfstring{ListaHospital()}{ListaHospital()}}
+{\footnotesize\ttfamily static Data\+Files.\+Lista\+Hospital.\+Lista\+Hospital (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Criacao de lista para guardar o objeto hospital 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{30         \{}
+\DoxyCodeLine{31             \mbox{\hyperlink{class_data_files_1_1_lista_hospital_a8d62133d9e45508baeaf603269c61676}{lsthospital}} = \textcolor{keyword}{new} List<Hospital>();}
+\DoxyCodeLine{32             \mbox{\hyperlink{class_data_files_1_1_lista_hospital_aa6736923763d3859c41c39f75438c916}{formatter}} = \textcolor{keyword}{new} BinaryFormatter();}
+\DoxyCodeLine{33         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_hospital_ad205b126066528186151589ff6a4024a}\label{class_data_files_1_1_lista_hospital_ad205b126066528186151589ff6a4024a}} 
+\index{DataFiles.ListaHospital@{DataFiles.ListaHospital}!Addhospital@{Addhospital}}
+\index{Addhospital@{Addhospital}!DataFiles.ListaHospital@{DataFiles.ListaHospital}}
+\doxysubsubsection{\texorpdfstring{Addhospital()}{Addhospital()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Hospital.\+Addhospital (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}}}]{hospital }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para adicionar um hospital a lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}hospital\char`\"{}$>$} & Recebe o Hospital a adicionar\\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{41         \{}
+\DoxyCodeLine{42             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{43             \{}
+\DoxyCodeLine{44                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_data_files_1_1_lista_hospital_a8d62133d9e45508baeaf603269c61676}{lsthospital}}.Contains(hospital)) \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{45                 \mbox{\hyperlink{class_data_files_1_1_lista_hospital_a8d62133d9e45508baeaf603269c61676}{lsthospital}}.Add(hospital);}
+\DoxyCodeLine{46             \}}
+\DoxyCodeLine{47             \textcolor{keywordflow}{catch} (Exception e)}
+\DoxyCodeLine{48             \{}
+\DoxyCodeLine{49                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{50             \}}
+\DoxyCodeLine{51             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{52         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_hospital_a1845c31a22799212c2aa050dae1d3a92}\label{class_data_files_1_1_lista_hospital_a1845c31a22799212c2aa050dae1d3a92}} 
+\index{DataFiles.ListaHospital@{DataFiles.ListaHospital}!LoadBinFile@{LoadBinFile}}
+\index{LoadBinFile@{LoadBinFile}!DataFiles.ListaHospital@{DataFiles.ListaHospital}}
+\doxysubsubsection{\texorpdfstring{LoadBinFile()}{LoadBinFile()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Hospital.\+Load\+Bin\+File (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para carregar informacao da lista hospital de ficheiro binario 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}filename\char`\"{}$>$} & Ficheiro binario do qual carrega as informacoes da lista \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{120         \{}
+\DoxyCodeLine{121             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{122             \{}
+\DoxyCodeLine{123                 Stream str = File.Open(filename, FileMode.Open, FileAccess.Read);}
+\DoxyCodeLine{124                 \mbox{\hyperlink{class_data_files_1_1_lista_hospital_a8d62133d9e45508baeaf603269c61676}{lsthospital}} = (List<Hospital>)\mbox{\hyperlink{class_data_files_1_1_lista_hospital_aa6736923763d3859c41c39f75438c916}{formatter}}.Deserialize(str);}
+\DoxyCodeLine{125                 str.Flush(); \textcolor{comment}{// Limpar buffer}}
+\DoxyCodeLine{126                 str.Close(); \textcolor{comment}{// Fechar acesso a stream}}
+\DoxyCodeLine{127                 str.Dispose(); \textcolor{comment}{// Libertar rescursos usados pela stream}}
+\DoxyCodeLine{128             \}}
+\DoxyCodeLine{129             \textcolor{comment}{// Erros de excecao}}
+\DoxyCodeLine{130             \textcolor{keywordflow}{catch} (FileNotFoundException f)}
+\DoxyCodeLine{131             \{}
+\DoxyCodeLine{132                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} FileNotFoundException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{133             \}}
+\DoxyCodeLine{134             \textcolor{keywordflow}{catch} (SerializationException f)}
+\DoxyCodeLine{135             \{}
+\DoxyCodeLine{136                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} SerializationException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{137             \}}
+\DoxyCodeLine{138             \textcolor{keywordflow}{catch} (IOException f)}
+\DoxyCodeLine{139             \{}
+\DoxyCodeLine{140                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} IOException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{141             \}}
+\DoxyCodeLine{142             \textcolor{keywordflow}{catch} (Exception f)}
+\DoxyCodeLine{143             \{}
+\DoxyCodeLine{144                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{145             \}}
+\DoxyCodeLine{146             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{147         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_hospital_a87d28148deeec3ca28af242dabc148cd}\label{class_data_files_1_1_lista_hospital_a87d28148deeec3ca28af242dabc148cd}} 
+\index{DataFiles.ListaHospital@{DataFiles.ListaHospital}!ProcurarHospitalNome@{ProcurarHospitalNome}}
+\index{ProcurarHospitalNome@{ProcurarHospitalNome}!DataFiles.ListaHospital@{DataFiles.ListaHospital}}
+\doxysubsubsection{\texorpdfstring{ProcurarHospitalNome()}{ProcurarHospitalNome()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}} Data\+Files.\+Lista\+Hospital.\+Procurar\+Hospital\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para procurar um hospital pelo nome 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}nome\char`\"{}$>$} & Nome do hospital a procurar \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{155         \{}
+\DoxyCodeLine{156             \mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}} auxH = \textcolor{keyword}{null};}
+\DoxyCodeLine{157             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{158             \{}
+\DoxyCodeLine{159                 auxH = \mbox{\hyperlink{class_data_files_1_1_lista_hospital_a8d62133d9e45508baeaf603269c61676}{lsthospital}}.Find(aux => aux.Nome == nome);}
+\DoxyCodeLine{160             \}}
+\DoxyCodeLine{161             \textcolor{keywordflow}{catch} (ArgumentNullException e)}
+\DoxyCodeLine{162             \{}
+\DoxyCodeLine{163                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentNullException(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{164             \}}
+\DoxyCodeLine{165             \textcolor{keywordflow}{catch} (Exception e)}
+\DoxyCodeLine{166             \{}
+\DoxyCodeLine{167                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + e.Message);}
+\DoxyCodeLine{168             \}}
+\DoxyCodeLine{169             \textcolor{keywordflow}{return} auxH;}
+\DoxyCodeLine{170         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_hospital_a49f7c2cff6d38de9efbb205dd2659e82}\label{class_data_files_1_1_lista_hospital_a49f7c2cff6d38de9efbb205dd2659e82}} 
+\index{DataFiles.ListaHospital@{DataFiles.ListaHospital}!Removehospital@{Removehospital}}
+\index{Removehospital@{Removehospital}!DataFiles.ListaHospital@{DataFiles.ListaHospital}}
+\doxysubsubsection{\texorpdfstring{Removehospital()}{Removehospital()}}
+{\footnotesize\ttfamily void Data\+Files.\+Lista\+Hospital.\+Removehospital (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}}}]{hospital }\end{DoxyParamCaption})}
+
+
+
+Funcao para remover um hospital da lista 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}hospital\char`\"{}$>$} & Recebe o nome do Hospital a remover \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{59         \{}
+\DoxyCodeLine{60             \textcolor{comment}{// Caso nao exista esse hospital}}
+\DoxyCodeLine{61             \textcolor{keywordflow}{if} (!\mbox{\hyperlink{class_data_files_1_1_lista_hospital_a8d62133d9e45508baeaf603269c61676}{lsthospital}}.Contains(hospital))}
+\DoxyCodeLine{62             \{}
+\DoxyCodeLine{63                 Console.WriteLine(hospital.\mbox{\hyperlink{class_libraria_hospital_1_1_hospital_a55b81fc4f039000dcc0051faaf8756cb}{Nome}} + \textcolor{stringliteral}{" had not been added before."});}
+\DoxyCodeLine{64             \}}
+\DoxyCodeLine{65             \textcolor{comment}{// Caso exista esse hospital}}
+\DoxyCodeLine{66             \textcolor{keywordflow}{else}}
+\DoxyCodeLine{67             \{}
+\DoxyCodeLine{68                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{class_data_files_1_1_lista_hospital_a8d62133d9e45508baeaf603269c61676}{lsthospital}}.Remove(hospital))}
+\DoxyCodeLine{69                 \{}
+\DoxyCodeLine{70                     Console.WriteLine(hospital.\mbox{\hyperlink{class_libraria_hospital_1_1_hospital_a55b81fc4f039000dcc0051faaf8756cb}{Nome}} + \textcolor{stringliteral}{" had been removed successfully."});}
+\DoxyCodeLine{71                 \}}
+\DoxyCodeLine{72                 \textcolor{keywordflow}{else}}
+\DoxyCodeLine{73                 \{}
+\DoxyCodeLine{74                     Console.WriteLine(\textcolor{stringliteral}{"Unable to remove "} + hospital.\mbox{\hyperlink{class_libraria_hospital_1_1_hospital_a55b81fc4f039000dcc0051faaf8756cb}{Nome}});}
+\DoxyCodeLine{75                 \} }
+\DoxyCodeLine{76             \} }
+\DoxyCodeLine{77         \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_data_files_1_1_lista_hospital_a10db454f6f2f9aa6dc33c38c609a3ba3}\label{class_data_files_1_1_lista_hospital_a10db454f6f2f9aa6dc33c38c609a3ba3}} 
+\index{DataFiles.ListaHospital@{DataFiles.ListaHospital}!SaveBinFile@{SaveBinFile}}
+\index{SaveBinFile@{SaveBinFile}!DataFiles.ListaHospital@{DataFiles.ListaHospital}}
+\doxysubsubsection{\texorpdfstring{SaveBinFile()}{SaveBinFile()}}
+{\footnotesize\ttfamily static bool Data\+Files.\+Lista\+Hospital.\+Save\+Bin\+File (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Funcao para guardar a lista num ficheiro binario 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name=\char`\"{}filename\char`\"{}$>$} & Ficheiro para o qual guarda a lista hospital \\
+\hline
+\end{DoxyParams}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{85         \{}
+\DoxyCodeLine{86             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{87             \{}
+\DoxyCodeLine{88                 Stream str = File.Open(filename, FileMode.Create, FileAccess.Write);}
+\DoxyCodeLine{89                 \mbox{\hyperlink{class_data_files_1_1_lista_hospital_aa6736923763d3859c41c39f75438c916}{formatter}}.Serialize(str, \mbox{\hyperlink{class_data_files_1_1_lista_hospital_a8d62133d9e45508baeaf603269c61676}{lsthospital}});}
+\DoxyCodeLine{90                 str.Flush(); \textcolor{comment}{// Limpar buffer}}
+\DoxyCodeLine{91                 str.Close(); \textcolor{comment}{// Fechar acesso a stream}}
+\DoxyCodeLine{92                 str.Dispose(); \textcolor{comment}{// Libertar rescursos usados pela stream}}
+\DoxyCodeLine{93             \}}
+\DoxyCodeLine{94             \textcolor{comment}{// Erros de excecao}}
+\DoxyCodeLine{95             \textcolor{keywordflow}{catch} (FileNotFoundException f)}
+\DoxyCodeLine{96             \{}
+\DoxyCodeLine{97                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} FileNotFoundException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{98             \}}
+\DoxyCodeLine{99             \textcolor{keywordflow}{catch} (SerializationException f)}
+\DoxyCodeLine{100             \{}
+\DoxyCodeLine{101                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} SerializationException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{102             \}}
+\DoxyCodeLine{103             \textcolor{keywordflow}{catch} (IOException f)}
+\DoxyCodeLine{104             \{}
+\DoxyCodeLine{105                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} IOException(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{106             \}}
+\DoxyCodeLine{107             \textcolor{keywordflow}{catch} (Exception f)}
+\DoxyCodeLine{108             \{}
+\DoxyCodeLine{109                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Error! "} + f.Message);}
+\DoxyCodeLine{110             \}}
+\DoxyCodeLine{111             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{112         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_data_files_1_1_lista_hospital_aa6736923763d3859c41c39f75438c916}\label{class_data_files_1_1_lista_hospital_aa6736923763d3859c41c39f75438c916}} 
+\index{DataFiles.ListaHospital@{DataFiles.ListaHospital}!formatter@{formatter}}
+\index{formatter@{formatter}!DataFiles.ListaHospital@{DataFiles.ListaHospital}}
+\doxysubsubsection{\texorpdfstring{formatter}{formatter}}
+{\footnotesize\ttfamily Binary\+Formatter Data\+Files.\+Lista\+Hospital.\+formatter\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_data_files_1_1_lista_hospital_a8d62133d9e45508baeaf603269c61676}\label{class_data_files_1_1_lista_hospital_a8d62133d9e45508baeaf603269c61676}} 
+\index{DataFiles.ListaHospital@{DataFiles.ListaHospital}!lsthospital@{lsthospital}}
+\index{lsthospital@{lsthospital}!DataFiles.ListaHospital@{DataFiles.ListaHospital}}
+\doxysubsubsection{\texorpdfstring{lsthospital}{lsthospital}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}}$>$ Data\+Files.\+Lista\+Hospital.\+lsthospital = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Files/\mbox{\hyperlink{_lista_hospital_8cs}{Lista\+Hospital.\+cs}}\end{DoxyCompactItemize}

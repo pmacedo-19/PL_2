@@ -51,7 +51,7 @@ namespace LibrariaHospital
         /// <summary>
         /// Regista um doente
         /// </summary>
-        /// <param Doentes="d">Ficha do Doente</param>
+        /// @param Doentes="d">Ficha do Doente</param>
         public int InsereDoente(Doentes d)
         {
             if (nDoentes >= lotacao) return 0;
@@ -66,8 +66,8 @@ namespace LibrariaHospital
         /// <summary>
         /// Regista uma infecao num doente
         /// </summary>
-        /// <param Doentes="d"> Ficha do Doente </param>
-        /// <param Infecao="infec"> Informcao sobre a infecao </param>
+        /// @param Doentes="d"> Ficha do Doente </param>
+        /// @param Infecao="infec"> Informcao sobre a infecao </param>
         public static void RegistaInfecao(Infecao infec, Doentes d)
         {
             d.AdicionarInfecao = infec;
@@ -80,7 +80,7 @@ namespace LibrariaHospital
         /// <summary>
         /// Verificar a existencia de um doente por nome
         /// </summary>
-        /// <param "nome" - Nome do Doente /param>
+        /// @param "nome" - Nome do Doente /param>
         /// <returns>True - se existir, False - se nao existir </returns>
         public bool ExisteDoenteNome(string nome)
         {
@@ -98,7 +98,7 @@ namespace LibrariaHospital
         /// <summary>
         /// Procura uma ficha por ID
         /// </summary>
-        /// <param "id" - ID da Pessoa /param>
+        /// @param "id" - ID da Pessoa /param>
         /// <returns> Ficha da Pessoa </returns>
         public static Pessoa FichaDoenteID(int id)
         {
@@ -112,7 +112,7 @@ namespace LibrariaHospital
         /// <summary>
         /// Procura Ficha por nome
         /// </summary>
-        /// <param "nome" - Nome do Doente /param>
+        /// @param "nome" - Nome do Doente /param>
         /// <returns> Ficha da pessoa </returns>
         public static Pessoa FichaDoenteNome(string nome)
         {
@@ -143,7 +143,7 @@ namespace LibrariaHospital
         /// <summary>
         /// Passa de infetado a curado
         /// </summary>
-        /// <param"id" - ID do doente /param>
+        /// @param"id" - ID do doente /param>
         public void DesativarInfetado(int id)
         {
             for(int i = 0; i < nDoentes; i++)
@@ -157,7 +157,7 @@ namespace LibrariaHospital
         /// <summary>
         /// Mostra a ficha de um doente atraves do ID inserido pelo user
         /// </summary>
-        /// <param "i" - Id /param>
+        /// @param "i" - Id /param>
         public void MostraFicha(int i)
         {
             Console.WriteLine("Ficha do id " + i + " ...");

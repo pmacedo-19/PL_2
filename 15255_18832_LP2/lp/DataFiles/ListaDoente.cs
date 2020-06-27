@@ -39,7 +39,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para adicionar um doente a lista
         /// </summary>
-        /// <param name="doente"> Recebe o doente a adicionar </param>
+        /// @param name="doente"> Recebe o doente a adicionar </param>
         /// <returns></returns>
         public static bool AddDoente(Doentes doente)
         {
@@ -58,7 +58,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para remover um doente da lista
         /// </summary>
-        /// <param name="doente"> Recebe o nome do doente a remover </param>
+        /// @param name="doente"> Recebe o nome do doente a remover </param>
         public void RemoveDoente(Doentes doente)
         {
             // Caso nao exista esse doente
@@ -83,7 +83,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para guardar a lista num ficheiro binario
         /// </summary>
-        /// <param name="filename"> Ficheiro para o qual guarda a lista doente </param>
+        /// @param name="filename"> Ficheiro para o qual guarda a lista doente </param>
         /// <returns></returns>
         public static bool SaveBinFile(string filename)
         {
@@ -118,7 +118,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para carregar informacao da lista pessoa de ficheiro binario
         /// </summary>
-        /// <param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
+        /// @param name="filename"> Ficheiro binario do qual carrega as informacoes da lista </param>
         /// <returns></returns>
         public static bool LoadBinFile(string filename)
         {
@@ -153,7 +153,7 @@ namespace DataFiles
         /// <summary>
         /// Funcao para procurar um doente pelo nome
         /// </summary>
-        /// <param name="nome"> Nome do doente a procurar </param>
+        /// @param name="nome"> Nome do doente a procurar </param>
         /// <returns></returns>
         public static Doentes ProcurarDoenteNome(string nome)
         {

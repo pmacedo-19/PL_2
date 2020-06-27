@@ -1,0 +1,144 @@
+\hypertarget{class_trabalho_l_p_i_i_1_1_program}{}\doxysection{Trabalho\+L\+P\+I\+I.\+Program Class Reference}
+\label{class_trabalho_l_p_i_i_1_1_program}\index{TrabalhoLPII.Program@{TrabalhoLPII.Program}}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_trabalho_l_p_i_i_1_1_program_a4c1766d860bed67bdef20eeb77af7bdf}{Main}} (string\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_trabalho_l_p_i_i_1_1_program_a4c1766d860bed67bdef20eeb77af7bdf}\label{class_trabalho_l_p_i_i_1_1_program_a4c1766d860bed67bdef20eeb77af7bdf}} 
+\index{TrabalhoLPII.Program@{TrabalhoLPII.Program}!Main@{Main}}
+\index{Main@{Main}!TrabalhoLPII.Program@{TrabalhoLPII.Program}}
+\doxysubsubsection{\texorpdfstring{Main()}{Main()}}
+{\footnotesize\ttfamily static void Trabalho\+L\+P\+I\+I.\+Program.\+Main (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{29         \{}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{preprocessor}{            \#region Ficheiros}}
+\DoxyCodeLine{32             \textcolor{keyword}{const} \textcolor{keywordtype}{string} SRC\_FILE\_BIN\_PESSOA = \textcolor{stringliteral}{"PessoaData.bin"};}
+\DoxyCodeLine{33             \textcolor{keyword}{const} \textcolor{keywordtype}{string} SRC\_FILE\_BIN\_DOENTES = \textcolor{stringliteral}{"DoentesData.bin"};}
+\DoxyCodeLine{34             \textcolor{keyword}{const} \textcolor{keywordtype}{string} SRC\_FILE\_BIN\_HOSPITAL = \textcolor{stringliteral}{"HospitalData.bin"};}
+\DoxyCodeLine{35             \textcolor{keyword}{const} \textcolor{keywordtype}{string} SRC\_FILE\_BIN\_INFECAO = \textcolor{stringliteral}{"InfecaoData.bin"};}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 \textcolor{preprocessor}{            \#endregion}}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39 \textcolor{preprocessor}{            \#region Testes}}
+\DoxyCodeLine{40             \mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}} infecao1 = \textcolor{keyword}{new} \mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}}(\textcolor{stringliteral}{"Bacteria"}, \textcolor{stringliteral}{"Salmonela"});}
+\DoxyCodeLine{43             \textcolor{comment}{//Infecao infecao2 = new Infecao("Cancro", "tumor");}}
+\DoxyCodeLine{44             \textcolor{comment}{//Infecao infecao3 = new Infecao("Virus", "Gripe-\/A");}}
+\DoxyCodeLine{45             \textcolor{comment}{//Infecao infecao4 = new Infecao("Cancro", "carcinoma");}}
+\DoxyCodeLine{46             \textcolor{comment}{//Infecao infecao5 = new Infecao("Cancro", "linfoma");}}
+\DoxyCodeLine{47             \textcolor{comment}{//Infecao infecao6 = new Infecao("Virus", "Varicela");}}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{50             \textcolor{comment}{//Doentes doente1 = new Doentes(infecao1, 32, "Ricardo", 0, DateTime.Today, 0, 0);}}
+\DoxyCodeLine{51             \textcolor{comment}{//Doentes doente2 = new Doentes(infecao2, 45, "Pedro", 1, DateTime.Today, 0, 1);}}
+\DoxyCodeLine{52             \textcolor{comment}{//Doentes doente3 = new Doentes(infecao3, 41, "Tiago", 2, DateTime.Today, 2, 4);}}
+\DoxyCodeLine{53             \textcolor{comment}{//Doentes doente4 = new Doentes(infecao4, 62, "Maria", 0, DateTime.Today, 1, 3);}}
+\DoxyCodeLine{54             \textcolor{comment}{//Doentes doente5 = new Doentes(infecao5, 48, "Antonio", 0, DateTime.Today, 0, 0);}}
+\DoxyCodeLine{55             \textcolor{comment}{//Doentes doente6 = new Doentes(infecao6, 12, "Antonieta", 0, DateTime.Today, 1, 2);}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{58             \textcolor{comment}{//Hospital hos = new Hospital();}}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{61             \textcolor{comment}{//hos.InsereDoente(doente1);}}
+\DoxyCodeLine{62             \textcolor{comment}{//hos.InsereDoente(doente2);}}
+\DoxyCodeLine{63             \textcolor{comment}{//hos.InsereDoente(doente3);}}
+\DoxyCodeLine{64             \textcolor{comment}{//hos.InsereDoente(doente4);}}
+\DoxyCodeLine{65             \textcolor{comment}{//hos.InsereDoente(doente5);}}
+\DoxyCodeLine{66             \textcolor{comment}{//hos.InsereDoente(doente6);}}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{69             \textcolor{comment}{//hos.ToString();}}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71             \textcolor{comment}{//Console.WriteLine("=================================================================================");}}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{74             \textcolor{comment}{//hos.DesativarInfetado(4);}}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{77             \textcolor{comment}{//hos.ToString();}}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{79             \textcolor{comment}{//Console.WriteLine("=================================================================================");}}
+\DoxyCodeLine{80 }
+\DoxyCodeLine{82             \textcolor{comment}{//hos.MostraFicha(0);}}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{84 \textcolor{preprocessor}{            \#endregion}}
+\DoxyCodeLine{85 }
+\DoxyCodeLine{86 \textcolor{preprocessor}{            \#region Testes2}}
+\DoxyCodeLine{87             \mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}} pessoa1 = \textcolor{keyword}{new} \mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}}(19, \textcolor{stringliteral}{"Ze"}, DateTime.Now, 1, 1);}
+\DoxyCodeLine{88             \mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}} pessoa2 = \textcolor{keyword}{new} \mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}}(29, \textcolor{stringliteral}{"Manel"},DateTime.Now, 1, 1);}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{90 }
+\DoxyCodeLine{91             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{92             \{}
+\DoxyCodeLine{93                 \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_a10af6b27d6cd94b42a109e35531386f4}{InserirPessoa}}(pessoa1, 7);}
+\DoxyCodeLine{94                 \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_a10af6b27d6cd94b42a109e35531386f4}{InserirPessoa}}(pessoa2, 8);}
+\DoxyCodeLine{95             \}}
+\DoxyCodeLine{96             \textcolor{keywordflow}{catch} (Exception e)}
+\DoxyCodeLine{97             \{}
+\DoxyCodeLine{98                 Console.WriteLine(\textcolor{stringliteral}{"Erro: \{0\}"}, e.Message);}
+\DoxyCodeLine{99             \}}
+\DoxyCodeLine{100 }
+\DoxyCodeLine{101             \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_aef96c945595053d31068f2d9c4e1b0e5}{ListaPessoaSaveBinFile}}(SRC\_FILE\_BIN\_PESSOA, 7);}
+\DoxyCodeLine{102             \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_aef96c945595053d31068f2d9c4e1b0e5}{ListaPessoaSaveBinFile}}(SRC\_FILE\_BIN\_PESSOA, 8);}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{104 }
+\DoxyCodeLine{105             \mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}} d1 = \textcolor{keyword}{new} \mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}}(infecao1, 32, \textcolor{stringliteral}{"Ricardo"}, 0, DateTime.Today, 0, 0);}
+\DoxyCodeLine{106             \mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}} d2 = \textcolor{keyword}{new} \mbox{\hyperlink{class_libraria_hospital_1_1_doentes}{Doentes}}(infecao1, 13, \textcolor{stringliteral}{"Manel"}, 0, DateTime.Today, 0, 0);}
+\DoxyCodeLine{107             \textcolor{keywordflow}{try}}
+\DoxyCodeLine{108             \{}
+\DoxyCodeLine{109                 \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_af0ee5e4a6fc87f7ab4a0a6a903b2b592}{InserirDoente}}(d1, 7);}
+\DoxyCodeLine{110                 \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_af0ee5e4a6fc87f7ab4a0a6a903b2b592}{InserirDoente}}(d2, 8);}
+\DoxyCodeLine{111             \}}
+\DoxyCodeLine{112             \textcolor{keywordflow}{catch} (Exception e)}
+\DoxyCodeLine{113             \{}
+\DoxyCodeLine{114                 Console.WriteLine(\textcolor{stringliteral}{"Erro: \{0\}"}, e.Message);}
+\DoxyCodeLine{115             \}}
+\DoxyCodeLine{116 }
+\DoxyCodeLine{117             \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_a40c5dae2aa178d7a453e90314a7d6f25}{ListaDoentesSaveBinFile}}(SRC\_FILE\_BIN\_DOENTES, 7);}
+\DoxyCodeLine{118 }
+\DoxyCodeLine{119 }
+\DoxyCodeLine{120             \mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}} hospital1 = \textcolor{keyword}{new} \mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}}(\textcolor{stringliteral}{"Hospital da Luz"}, 500, 20);}
+\DoxyCodeLine{121             \mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}} hospital2 = \textcolor{keyword}{new} \mbox{\hyperlink{class_libraria_hospital_1_1_hospital}{Hospital}}(\textcolor{stringliteral}{"Hospital de S. Joao"}, 500, 20);}
+\DoxyCodeLine{122             \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_aa457bdd7dee85fcdcd1a41fadbe473e3}{InserirHospital}}(hospital1, 7);}
+\DoxyCodeLine{123             \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_aa457bdd7dee85fcdcd1a41fadbe473e3}{InserirHospital}}(hospital2, 8);}
+\DoxyCodeLine{124             \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_a191abad010436920a54ca8d35af33d1d}{ListaHospitalSaveBinFile}}(SRC\_FILE\_BIN\_HOSPITAL, 7);}
+\DoxyCodeLine{125             \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_a191abad010436920a54ca8d35af33d1d}{ListaHospitalSaveBinFile}}(SRC\_FILE\_BIN\_HOSPITAL, 8);}
+\DoxyCodeLine{126 }
+\DoxyCodeLine{127 }
+\DoxyCodeLine{128             \mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}} infecaoA = \textcolor{keyword}{new} \mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}}(\textcolor{stringliteral}{"Bacteria"}, \textcolor{stringliteral}{"Salmonela"});}
+\DoxyCodeLine{129             \mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}} infecaoB = \textcolor{keyword}{new} \mbox{\hyperlink{class_libraria_hospital_1_1_infecao}{Infecao}}(\textcolor{stringliteral}{"Virus"}, \textcolor{stringliteral}{"Gripe-\/A"});}
+\DoxyCodeLine{130             \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_a11a9802b7b4619e04b9e1dc7fa667062}{InserirInfecao}}(infecaoA, 7);}
+\DoxyCodeLine{131             \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_a11a9802b7b4619e04b9e1dc7fa667062}{InserirInfecao}}(infecaoB, 8);}
+\DoxyCodeLine{132             \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_ac509e0e48f11deb8ed418236eb32ffca}{ListaInfecaoSaveBinFile}}(SRC\_FILE\_BIN\_INFECAO, 7);}
+\DoxyCodeLine{133             \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_ac509e0e48f11deb8ed418236eb32ffca}{ListaInfecaoSaveBinFile}}(SRC\_FILE\_BIN\_INFECAO, 8);}
+\DoxyCodeLine{134 }
+\DoxyCodeLine{135 }
+\DoxyCodeLine{136             \mbox{\hyperlink{class_libraria_hospital_1_1_pessoa}{Pessoa}} aux = \mbox{\hyperlink{class_regras_class_1_1_regras}{Regras}}.\mbox{\hyperlink{class_regras_class_1_1_regras_a110131a561cda6847d68d18a8d2666bc}{ProcurarPessoaNome}}(\textcolor{stringliteral}{"Ze"}, 7);}
+\DoxyCodeLine{137             Console.WriteLine(aux.ToString());}
+\DoxyCodeLine{138 }
+\DoxyCodeLine{139 }
+\DoxyCodeLine{140 }
+\DoxyCodeLine{141 \textcolor{preprocessor}{            \#endregion}}
+\DoxyCodeLine{142 }
+\DoxyCodeLine{143 }
+\DoxyCodeLine{144             \textcolor{comment}{//\#region Variaveis}}
+\DoxyCodeLine{145             \textcolor{comment}{//bool sair = false;}}
+\DoxyCodeLine{146             \textcolor{comment}{//\#endregion}}
+\DoxyCodeLine{147 }
+\DoxyCodeLine{148             \textcolor{comment}{//\#region Menu}}
+\DoxyCodeLine{149             \textcolor{comment}{//while(!sair)}}
+\DoxyCodeLine{150             \textcolor{comment}{//\{}}
+\DoxyCodeLine{151             \textcolor{comment}{//    Console.Clear();}}
+\DoxyCodeLine{152 }
+\DoxyCodeLine{153 }
+\DoxyCodeLine{154             \textcolor{comment}{//\}}}
+\DoxyCodeLine{155 }
+\DoxyCodeLine{156         \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Trabalho\+L\+P/\mbox{\hyperlink{_program_8cs}{Program.\+cs}}\end{DoxyCompactItemize}
